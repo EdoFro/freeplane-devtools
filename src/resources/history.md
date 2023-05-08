@@ -1,5 +1,10 @@
 # History
 
+## v0.10.1
+
+* saved with Freeplane 1.11.1 (not compatible with previous versions)
+* Styles changed in addon .mm file
+* Added generateAddonsPropertiesMap command with its own template file
 ## v0.9.31
 
 * changeLogURL added as preference parameter
