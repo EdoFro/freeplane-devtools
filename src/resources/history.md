@@ -5,6 +5,9 @@
 * saved with Freeplane 1.11.1 (not compatible with previous versions)
 * Styles changed in addon .mm file
 * Added generateAddonsPropertiesMap command with its own template file
+  * I use this to see if the installed add-on has the right URL to its hompage and updating information.
+* List of changes in history.md now can handle multiple levels
+
 ## v0.9.31
 
 * changeLogURL added as preference parameter
