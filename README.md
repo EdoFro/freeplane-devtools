@@ -25,7 +25,7 @@ This add-on collects some utilities that script and/or add-on developers will fi
 
 The functions are available under Tools -> Development Tools
 
-<details><summary>Features in standard version (v.0.9.27)</summary>
+<details><summary>### Features in standard version (v.0.9.27)</summary>
 
 - **Build add-on:**
    - adds all standard nodes, attributes and notes to the current map. Can be used with an empty Map to create a basic add-on.
@@ -45,7 +45,7 @@ The functions are available under Tools -> Development Tools
    - Adds **Eclipse** editor support for predefined script bindings such as node, c, ui, textUtils, ...
 
 ----
-</details><details><summary>Features added by gpapp version</summary>
+</details><details><summary>### Features added by gpapp version</summary>
 
 - **Devtools with property file support**
    - Freeplane devtools enhanced with some translation utilities
@@ -55,7 +55,7 @@ The functions are available under Tools -> Development Tools
    - Translations must be named as LC.properties and must be in *UTF-8*!
 
 ----
-</details><details><summary>Features added by this version</summary>
+</details><details><summary>### Features added by this version</summary>
 
 # changes to add-on parameters
 
@@ -125,7 +125,7 @@ The functions are available under Tools -> Development Tools
 - "**Package add-on for publication**" can now open the new add-on for direct installation
 
 ----
-</details><details><summary>New in v0.9.30:</summary>
+</details><details><summary>### New in v0.9.30:</summary>
 
 - Now you can add the **preference parameters** as *attributes* in the "preferences.xml" node and it will automatically
    - **build the XML** text as the child node
@@ -133,7 +133,7 @@ The functions are available under Tools -> Development Tools
    - add the preferences to the **translations** node, where you can define their **Option panel**  *labels* and *tooltips* texts
 
 ----
-</details><details><summary>New in v0.9.31:</summary>
+</details><details><summary>### New in v0.9.31:</summary>
 
 - **changeLogURL** added as **preference parameter**
 -  **change log URL** property to **version.properties**
