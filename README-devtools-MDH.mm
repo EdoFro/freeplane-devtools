@@ -1,17 +1,17 @@
-<map version="freeplane 1.9.13">
+<map version="freeplane 1.11.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <attribute_registry SHOW_ATTRIBUTES="hide"/>
 <node LOCALIZED_TEXT="new_mindmap" FOLDED="false" ID="ID_696401721" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="0.909">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" mapUsesOwnSaveOptions="true" associatedTemplateLocation="template:/MarkdownHelper/MarkdownHelper%20template.mm" followedTemplateLocation="template:/MarkdownHelper/MarkdownHelper%20template.mm" show_icon_for_attributes="true" show_notes_in_map="false" save_modification_times="false" save_last_visited_node="default" show_note_icons="true" save_folding="default" followedMapLastTime="1642350882829" fit_to_viewport="false"/>
+<hook NAME="MapStyle">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" mapUsesOwnSaveOptions="true" associatedTemplateLocation="template:/MarkdownHelper/MarkdownHelper%20template.mm" followedTemplateLocation="template:/MarkdownHelper/MarkdownHelper%20template.mm" show_icon_for_attributes="true" show_notes_in_map="false" save_modification_times="false" save_last_visited_node="default" show_note_icons="true" save_folding="default" followedMapLastTime="1659826159734" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" ID="ID_1758066171" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_271890427" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#000000" STYLE="fork" NUMBERED="false" FORMAT="STANDARD_FORMAT" TEXT_ALIGN="DEFAULT" MAX_WIDTH="10 cm" MIN_WIDTH="0 cm" VGAP_QUANTITY="2 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#808080" BORDER_DASH_LIKE_EDGE="false" BORDER_DASH="SOLID">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_271890427" STARTINCLINATION="65.25 pt;-27.75 pt;" ENDINCLINATION="55.5 pt;18.75 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_271890427" STARTINCLINATION="65.25 pt;-32.25 pt;" ENDINCLINATION="55.5 pt;18.75 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
@@ -47,7 +47,7 @@ blockquote {
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" ID="ID_1886070887" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" ID="ID_1886070887" STYLE="bubble">
 <stylenode TEXT="MarkdownHelperNode" ID="ID_916254995" COLOR="#dbffdb" BACKGROUND_COLOR="#333333" STYLE="rectangle" BORDER_WIDTH="4 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#009000">
 <icon BUILTIN="emoji-1F343"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/markdown"/>
@@ -85,14 +85,14 @@ blockquote {
 <stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.important" ID="ID_269997139">
+<stylenode LOCALIZED_TEXT="styles.important" ID="ID_1448126408">
 <icon BUILTIN="yes"/>
 </stylenode>
-<stylenode TEXT="fullMarkDown" ID="ID_875524079" BACKGROUND_COLOR="#e0eae0" FORMAT="markdownPatternFormat"><richcontent CONTENT-TYPE="plain/markdown" TYPE="DETAILS"/>
+<stylenode TEXT="fullMarkDown" ID="ID_358615964" BACKGROUND_COLOR="#e0eae0" FORMAT="markdownPatternFormat"><richcontent CONTENT-TYPE="plain/markdown" TYPE="DETAILS"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/markdown"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" ID="ID_1479265455" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
@@ -119,7 +119,7 @@ blockquote {
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="README.md" STYLE_REF="MarkdownHelperNode" POSITION="right" ID="ID_1638680456" LINK="file:/C:/Users/Edo/Documents/GitHub/freeplane-devtools/README.md">
+<node TEXT="README.md" STYLE_REF="MarkdownHelperNode" POSITION="bottom_or_right" ID="ID_1638680456" LINK="file:/C:/Users/efroh/GitHub/freeplane-devtools/README.md">
 <attribute NAME="headersToUnderline" VALUE="0" OBJECT="org.freeplane.features.format.FormattedNumber|0|#0.####"/>
 <attribute NAME="hideFolded" VALUE="false"/>
 <attribute NAME="headerNumbering" VALUE="true"/>
@@ -398,10 +398,11 @@ blockquote {
   </head>
   <body>
     <p>
-      The instalable file (```$1-$2.addon.mm```) of the latest version of the this fork can be downloaded from $3.
+      The instalable file (```$1-$2.addon.mm```) of the latest version of this fork can be downloaded from $3.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="devtools" ID="ID_954321371"/>
 <node TEXT="using formula in note of this node to get vX.X.X from list in &apos;change log&apos; node" ID="ID_1280078698" LINK="#ID_1015823873"><richcontent TYPE="NOTE" CONTENT-TYPE="plain/">
     <text>=node.link?.node?.children?.first()?.text?:&apos;vX.X.X&apos;</text>
@@ -425,12 +426,32 @@ blockquote {
 <node TEXT="bye,&#xa;&#xa;edo" ID="ID_965908873"/>
 </node>
 </node>
-<node TEXT="Description" FOLDED="true" ID="ID_328053546" VGAP_QUANTITY="2 pt">
+<node TEXT="Description" ID="ID_328053546" VGAP_QUANTITY="2 pt">
 <attribute_layout VALUE_WIDTH="100 pt"/>
 <node TEXT="This add-on collects some utilities that script and/or add-on developers will find useful." ID="ID_1307232320"/>
 <node TEXT="The functions are available under Tools -&gt; Development Tools" ID="ID_430754274"/>
-<node TEXT="Features in standard version (v.0.9.27)" ID="ID_80809317">
-<node TEXT="list" STYLE_REF="MarkdownHelperNode" ID="ID_243684558"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="details" STYLE_REF="MarkdownHelperNode" ID="ID_681644559"><richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto">
+    <text>=&#xd;
+import edofro.MarkDownHelper.MDH&#xd;
+&#xd;
+def preResumen =&apos;&apos;&#xd;
+&#xd;
+def texto =&quot;&quot;&#xd;
+node.children.each{ n-&gt;&#xd;
+    def resumen = preResumen + n.text&#xd;
+    def contenido = MDH.document(n)&#xd;
+    &#xd;
+    texto += &quot;&lt;details&gt;&lt;summary&gt;${resumen}&lt;/summary&gt;\n\n${contenido}----\n&lt;/details&gt;&quot; &#xd;
+}&#xd;
+&#xd;
+return texto?:&apos;-----\n--- No details items found! ---\n\n----\n&apos;&#xd;
+&#xd;
+</text>
+</richcontent>
+<node TEXT="Features in standard version (v.0.9.27)" POSITION="bottom_or_right" ID="ID_80809317">
+<node TEXT="here comes a list" ID="ID_147254243">
+<icon BUILTIN="emoji-1F648"/>
+<node TEXT="list" STYLE_REF="MarkdownHelperNode" POSITION="bottom_or_right" ID="ID_243684558"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -467,8 +488,11 @@ blockquote {
 </node>
 </node>
 </node>
-<node TEXT="Features added by gpapp version" ID="ID_799846000">
-<node TEXT="list" STYLE_REF="MarkdownHelperNode" ID="ID_635378375"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+</node>
+<node TEXT="Features added by gpapp version" POSITION="bottom_or_right" ID="ID_799846000">
+<node TEXT="here comes a list" FOLDED="true" ID="ID_296495673">
+<icon BUILTIN="emoji-1F648"/>
+<node TEXT="list" STYLE_REF="MarkdownHelperNode" POSITION="bottom_or_right" ID="ID_635378375"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -489,9 +513,12 @@ blockquote {
 </node>
 </node>
 </node>
-<node TEXT="Features added by this version" ID="ID_147925723">
+</node>
+<node TEXT="Features added by this version" POSITION="bottom_or_right" ID="ID_147925723">
 <node TEXT="changes to add-on parameters" ID="ID_52583889">
-<node TEXT="list" STYLE_REF="MarkdownHelperNode" ID="ID_1819954991"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="here comes a list" FOLDED="true" ID="ID_1499043100">
+<icon BUILTIN="emoji-1F648"/>
+<node TEXT="list" STYLE_REF="MarkdownHelperNode" POSITION="bottom_or_right" ID="ID_1819954991"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -552,8 +579,11 @@ blockquote {
 </node>
 </node>
 </node>
+</node>
 <node TEXT="&quot;actions&quot; node" ID="ID_1098166546">
-<node TEXT="list" STYLE_REF="MarkdownHelperNode" ID="ID_1069431078"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="here comes a list" FOLDED="true" ID="ID_437513963">
+<icon BUILTIN="emoji-1F648"/>
+<node TEXT="list" STYLE_REF="MarkdownHelperNode" POSITION="bottom_or_right" ID="ID_1069431078"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -574,8 +604,11 @@ blockquote {
 <node TEXT="This node is just to facilitate the access to these commands" ID="ID_677846402"/>
 </node>
 </node>
+</node>
 <node TEXT="new commands" ID="ID_992339106">
-<node TEXT="list" STYLE_REF="MarkdownHelperNode" ID="ID_1977967499"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="here comes a list" FOLDED="true" ID="ID_1602185553">
+<icon BUILTIN="emoji-1F648"/>
+<node TEXT="list" STYLE_REF="MarkdownHelperNode" POSITION="bottom_or_right" ID="ID_1977967499"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -641,8 +674,11 @@ blockquote {
 </node>
 </node>
 </node>
+</node>
 <node TEXT="other changes" ID="ID_1056104045">
-<node TEXT="list" STYLE_REF="MarkdownHelperNode" ID="ID_473078812"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="here comes a list" FOLDED="true" ID="ID_762532069">
+<icon BUILTIN="emoji-1F648"/>
+<node TEXT="list" STYLE_REF="MarkdownHelperNode" POSITION="bottom_or_right" ID="ID_473078812"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -660,8 +696,11 @@ blockquote {
 </node>
 </node>
 </node>
-<node TEXT="New in v0.9.30:" ID="ID_250849647">
-<node TEXT="list" STYLE_REF="MarkdownHelperNode" ID="ID_955469551"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+</node>
+<node TEXT="New in v0.9.30:" POSITION="bottom_or_right" ID="ID_250849647">
+<node TEXT="here comes a list" FOLDED="true" ID="ID_1046035027">
+<icon BUILTIN="emoji-1F648"/>
+<node TEXT="list" STYLE_REF="MarkdownHelperNode" POSITION="bottom_or_right" ID="ID_955469551"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -679,8 +718,11 @@ blockquote {
 </node>
 </node>
 </node>
-<node TEXT="New in v0.9.31:" ID="ID_1227746329">
-<node TEXT="list" STYLE_REF="MarkdownHelperNode" ID="ID_632094024"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+</node>
+<node TEXT="New in v0.9.31:" POSITION="bottom_or_right" ID="ID_1227746329">
+<node TEXT="here comes a list" FOLDED="true" ID="ID_1679305709">
+<icon BUILTIN="emoji-1F648"/>
+<node TEXT="list" STYLE_REF="MarkdownHelperNode" POSITION="bottom_or_right" ID="ID_632094024"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -702,7 +744,29 @@ blockquote {
 </node>
 </node>
 </node>
-<node TEXT="Change Log" ID="ID_309963735">
+</node>
+</node>
+<node TEXT="details" STYLE_REF="MarkdownHelperNode" ID="ID_1760770477"><richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto">
+    <text>=&#xd;
+import edofro.MarkDownHelper.MDH&#xd;
+&#xd;
+def preResumen =&apos;&apos;&#xd;
+&#xd;
+def texto =&quot;&quot;&#xd;
+node.children.each{ n-&gt;&#xd;
+    def resumen = preResumen + n.text&#xd;
+    def contenido = MDH.document(n)&#xd;
+    &#xd;
+    texto += &quot;&lt;details&gt;&lt;summary&gt;${resumen}&lt;/summary&gt;\n\n${contenido}----\n&lt;/details&gt;&quot; &#xd;
+}&#xd;
+&#xd;
+return texto?:&apos;-----\n--- No details items found! ---\n\n----\n&apos;&#xd;
+&#xd;
+</text>
+</richcontent>
+<node TEXT="Change Log" POSITION="bottom_or_right" ID="ID_309963735">
+<node TEXT="here comes a list" ID="ID_1487372606">
+<icon BUILTIN="emoji-1F648"/>
 <node TEXT="list" STYLE_REF="MarkdownHelperNode" ID="ID_1015823873"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -714,6 +778,14 @@ blockquote {
     </p>
   </body>
 </html></richcontent>
+<node TEXT="v0.10.1" ID="ID_1014535172">
+<node TEXT="saved with Freeplane 1.11.1 (not compatible with previous versions)" ID="ID_1597818265"/>
+<node TEXT="Styles changed in addon .mm file" ID="ID_1068019535"/>
+<node TEXT="Added generateAddonsPropertiesMap command with its own template file" ID="ID_1413386255">
+<node TEXT="I use this to see if the installed add-on has the right URL to its hompage and updating information." ID="ID_1256152432"/>
+</node>
+<node TEXT="List of changes in history.md now can handle multiple levels" ID="ID_796155408"/>
+</node>
 <node TEXT="v0.9.31" ID="ID_1185204241">
 <node TEXT="now it creates and updates &apos;history.md&apos; file" ID="ID_474363164"/>
 <node TEXT="adds changelogurl property to version.properties file" ID="ID_1264034468"/>
@@ -852,7 +924,9 @@ blockquote {
 </node>
 </node>
 </node>
-<node TEXT="temp scripts" POSITION="right" ID="ID_421122053">
+</node>
+</node>
+<node TEXT="temp scripts" POSITION="bottom_or_right" ID="ID_421122053">
 <node TEXT="bold nodes" ID="ID_635130219"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -883,8 +957,9 @@ blockquote {
 </html></richcontent>
 </node>
 </node>
-<node TEXT="**IMPORTANT**:  &#xa;This map needs that the **MarkdownHelper** add-on is installed to work properly." LOCALIZED_STYLE_REF="styles.important" POSITION="left" ID="ID_1035125343" ICON_SIZE="96 pt" BACKGROUND_COLOR="#ffff00" STYLE="rectangle" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt" FORMAT="markdownPatternFormat" BORDER_WIDTH="3 px" MAX_WIDTH="13 cm">
+<node TEXT="**IMPORTANT**:  &#xa;This map needs that the **MarkdownHelper** add-on is installed to work properly." LOCALIZED_STYLE_REF="styles.important" POSITION="top_or_left" ID="ID_1035125343" ICON_SIZE="96 pt" BACKGROUND_COLOR="#ffff00" STYLE="rectangle" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt" FORMAT="markdownPatternFormat" BORDER_WIDTH="3 px" MAX_WIDTH="13 cm">
 <font SIZE="18" BOLD="false"/>
 </node>
+<node TEXT="README.md" POSITION="bottom_or_right" ID="ID_1155000096" LINK="README.md"/>
 </node>
 </map>
