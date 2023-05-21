@@ -25,8 +25,7 @@ This add-on collects some utilities that script and/or add-on developers will fi
 
 The functions are available under Tools -> Development Tools
 
-<details><summary>### Features in standard version (v.0.9.27)</summary>
-
+<details><summary><h3>2.1. Features in standard version (v.0.9.27)</h3></summary>
 - **Build add-on:**
    - adds all standard nodes, attributes and notes to the current map. Can be used with an empty Map to create a basic add-on.
 - **Package add-on for release:**
@@ -44,9 +43,8 @@ The functions are available under Tools -> Development Tools
 - **freeplane.dsld:**
    - Adds **Eclipse** editor support for predefined script bindings such as node, c, ui, textUtils, ...
 
-----
-</details><details><summary>### Features added by gpapp version</summary>
-
+</details>
+<details><summary><h3>2.2. Features added by gpapp version</h3></summary>
 - **Devtools with property file support**
    - Freeplane devtools enhanced with some translation utilities
 - **Purpose**
@@ -54,10 +52,9 @@ The functions are available under Tools -> Development Tools
    - If a 'translations' directory exists, all translation nodes will be replaced with the translations in that directory.
    - Translations must be named as LC.properties and must be in *UTF-8*!
 
-----
-</details><details><summary>### Features added by this version</summary>
-
-# changes to add-on parameters
+</details>
+<details><summary><h3>2.3. Features added by this version</h3></summary>
+#### 2.3.1. changes to add-on parameters
 
 - **homepage**
    - **change:** It is a new property
@@ -93,7 +90,7 @@ The functions are available under Tools -> Development Tools
    - Example:
       - '/menu_bar/myAddons'
 
-# "actions" node
+#### 2.3.2. "actions" node
 
 - When building a new add-on, now it adds a new "**action**" node.
 - This node has children nodes with links to following menu commands:
@@ -103,7 +100,7 @@ The functions are available under Tools -> Development Tools
    - **Import Translations**
 - This node is just to facilitate the access to these commands
 
-# new commands
+#### 2.3.3. new commands
 
 - **Export Translation**
    - Exports translations as properties files to 'translations' folder
@@ -118,23 +115,21 @@ The functions are available under Tools -> Development Tools
    - Inserts a node with the properties information of the installed add-on you select
    - A dialog appears where you can select from a list with all the installed add-ons
 
-# other changes
+#### 2.3.4. other changes
 
 - Now it proposes a menu text for the new scripts based on its file name
    - It transform a camelCase file name into a normal phrase
 - "**Package add-on for publication**" can now open the new add-on for direct installation
 
-----
-</details><details><summary>### New in v0.9.30:</summary>
-
+</details>
+<details><summary><h3>2.4. New in v0.9.30:</h3></summary>
 - Now you can add the **preference parameters** as *attributes* in the "preferences.xml" node and it will automatically
    - **build the XML** text as the child node
    - add the preferences to the **properties.default** node, where you can define their default values
    - add the preferences to the **translations** node, where you can define their **Option panel**  *labels* and *tooltips* texts
 
-----
-</details><details><summary>### New in v0.9.31:</summary>
-
+</details>
+<details><summary><h3>2.5. New in v0.9.31:</h3></summary>
 - **changeLogURL** added as **preference parameter**
 -  **change log URL** property to **version.properties**
    - Now it adds the **changelogurl** property to the **version.properties** file
@@ -142,11 +137,16 @@ The functions are available under Tools -> Development Tools
 - automatically creates and updates '**history.md**' file
    - "**Package add-on for publication**" automatically creates a "**history.md**" file using the information form the "**changes**" node
 
-----
 </details>
+<details><summary><h3>2.6. New in v0.10.1</h3></summary>
+- saved with Freeplane 1.11.1 (not compatible with previous versions)
+- Styles changed in addon .mm file
+- Added generateAddonsPropertiesMap command with its own template file
+   - I use this to see if the installed add-on has the right URL to its hompage and updating information.
+- List of changes in history.md now can handle multiple levels
 
-<details><summary>Change Log</summary>
-
+</details>
+<details><summary><h2>3. Change Log</h2></summary>
 - v0.10.1
    - saved with Freeplane 1.11.1 (not compatible with previous versions)
    - Styles changed in addon .mm file
@@ -241,6 +241,4 @@ The functions are available under Tools -> Development Tools
 - v0.9
    - Initial version
 
-----
 </details>
-
