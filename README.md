@@ -26,6 +26,7 @@ This add-on collects some utilities that script and/or add-on developers will fi
 The functions are available under Tools -> Development Tools
 
 <details><summary><h3>2.1. Features in standard version (v.0.9.27)</h3></summary>
+
 - **Build add-on:**
    - adds all standard nodes, attributes and notes to the current map. Can be used with an empty Map to create a basic add-on.
 - **Package add-on for release:**
@@ -45,6 +46,7 @@ The functions are available under Tools -> Development Tools
 
 </details>
 <details><summary><h3>2.2. Features added by gpapp version</h3></summary>
+
 - **Devtools with property file support**
    - Freeplane devtools enhanced with some translation utilities
 - **Purpose**
@@ -54,6 +56,7 @@ The functions are available under Tools -> Development Tools
 
 </details>
 <details><summary><h3>2.3. Features added by this version</h3></summary>
+
 #### 2.3.1. changes to add-on parameters
 
 - **homepage**
@@ -123,6 +126,7 @@ The functions are available under Tools -> Development Tools
 
 </details>
 <details><summary><h3>2.4. New in v0.9.30:</h3></summary>
+
 - Now you can add the **preference parameters** as *attributes* in the "preferences.xml" node and it will automatically
    - **build the XML** text as the child node
    - add the preferences to the **properties.default** node, where you can define their default values
@@ -130,6 +134,7 @@ The functions are available under Tools -> Development Tools
 
 </details>
 <details><summary><h3>2.5. New in v0.9.31:</h3></summary>
+
 - **changeLogURL** added as **preference parameter**
 -  **change log URL** property to **version.properties**
    - Now it adds the **changelogurl** property to the **version.properties** file
@@ -139,6 +144,7 @@ The functions are available under Tools -> Development Tools
 
 </details>
 <details><summary><h3>2.6. New in v0.10.1</h3></summary>
+
 - saved with Freeplane 1.11.1 (not compatible with previous versions)
 - Styles changed in addon .mm file
 - Added generateAddonsPropertiesMap command with its own template file
@@ -147,6 +153,7 @@ The functions are available under Tools -> Development Tools
 
 </details>
 <details><summary><h2>3. Change Log</h2></summary>
+
 - v0.10.1
    - saved with Freeplane 1.11.1 (not compatible with previous versions)
    - Styles changed in addon .mm file
