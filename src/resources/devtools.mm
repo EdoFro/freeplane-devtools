@@ -3,7 +3,7 @@
 <node TEXT="devtools" FOLDED="false" ID="ID_1723255651" LINK="https://github.com/EdoFro/freeplane-devtools">
 <attribute_layout NAME_WIDTH="116.25 pt" VALUE_WIDTH="310.49999 pt"/>
 <attribute NAME="name" VALUE="devtools"/>
-<attribute NAME="version" VALUE="v0.10.1"/>
+<attribute NAME="version" VALUE="v0.10.2"/>
 <attribute NAME="author" VALUE="Volker Börchers, Henk van den Akker, Gergely Papp, Edo Frohlich"/>
 <attribute NAME="freeplaneVersionFrom" VALUE="v1.11"/>
 <attribute NAME="freeplaneVersionTo" VALUE=""/>
@@ -83,8 +83,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <hook NAME="MapStyle" background="#002b36" zoom="0.909">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" mapUsesOwnSaveOptions="true" save_modification_times="false" save_last_visited_node="default" show_note_icons="true" associatedTemplateLocation="template:/dark_solarized_AddOn_template.mm" save_folding="default" fit_to_viewport="false"/>
 
@@ -93,7 +92,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1664261437" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#002b36" BACKGROUND_COLOR="#fdf6e3" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" NUMBERED="false" FORMAT="STANDARD_FORMAT" TEXT_ALIGN="DEFAULT" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt" COMMON_HGAP_QUANTITY="14 pt" MAX_WIDTH="10 cm" MIN_WIDTH="0 cm" CHILD_NODES_LAYOUT="AUTO">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#fdf6e3" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1664261437" STARTINCLINATION="132.75 pt;-25.5 pt;" ENDINCLINATION="132.75 pt;24 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#fdf6e3" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1664261437" STARTINCLINATION="132.75 pt;-24.75 pt;" ENDINCLINATION="132.75 pt;24 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="11" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#93a1a1" WIDTH="3" DASH="SOLID"/>
 <richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
@@ -177,8 +176,7 @@
       To translate the description you have to define a translation for the key 'addons.${name}.description'.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute_layout VALUE_WIDTH="100 pt"/>
 <node ID="ID_1187826020" VSHIFT_QUANTITY="2.25 pt"><richcontent TYPE="NODE">
 
@@ -362,8 +360,7 @@
       &#xa0;&#xa0;- In any case set execute_scripts_without_asking to true unless you want to annoy users.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="checkAddOn.groovy" ID="ID_1651569668"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -700,8 +697,7 @@
       Change log of this add-on: append one node for each noteworthy version and put the details for each version into a child node.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="v0.9" FOLDED="true" ID="ID_781192802">
 <node TEXT="Initial version" ID="ID_1996473369"/>
 </node>
@@ -844,6 +840,7 @@
 </node>
 <node TEXT="List of changes in history.md now can handle multiple levels" ID="ID_796155408"/>
 </node>
+<node TEXT="v0.10.2" ID="ID_1210574311"/>
 </node>
 <node TEXT="license" FOLDED="true" POSITION="top_or_left" ID="ID_770036552"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -861,8 +858,7 @@
       The License text has to be entered as a child of the <i>'license'</i>&#xa0;node, either as plain text or as HTML.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute_layout VALUE_WIDTH="100 pt"/>
 <node TEXT="This add-on is free software: you can redistribute it and/or modify&#xa;it under the terms of the GNU General Public License as published by&#xa;the Free Software Foundation, either version 2 of the License, or&#xa;(at your option) any later version.&#xa;&#xa;This program is distributed in the hope that it will be useful,&#xa;but WITHOUT ANY WARRANTY; without even the implied warranty of&#xa;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the&#xa;GNU General Public License for more details." ID="ID_1912443753"/>
 </node>
@@ -972,8 +968,7 @@
       </tr>
     </table>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute_layout NAME_WIDTH="78.75 pt" VALUE_WIDTH="48 pt"/>
 <attribute NAME="addonsMenu" VALUE="string"/>
 <attribute NAME="updateUrl" VALUE="string"/>
@@ -1006,8 +1001,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="translations" FOLDED="true" POSITION="top_or_left" ID="ID_1289155258"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -1039,8 +1033,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="de" ID="ID_956348813">
 <attribute_layout NAME_WIDTH="178.49999 pt" VALUE_WIDTH="185.99999 pt"/>
 <attribute NAME="addons.${name}.checkAddOn" VALUE="Komplettiere Add-on"/>
@@ -1122,8 +1115,7 @@
       List of files and/or directories to remove on uninstall
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute_layout NAME_WIDTH="48 pt" VALUE_WIDTH="336.74999 pt"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}.script.xml"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/addOnDoc.groovy"/>
@@ -1177,8 +1169,7 @@
       &#xa0;- The files will be processed in the sequence as seen in the map.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="scripts" ID="ID_929040161"/>
 <node TEXT="templates" ID="ID_1360990075"/>
 </node>
@@ -1216,8 +1207,7 @@
       &#xa0;- The files will be processed in the sequence as seen in the map.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <attribute_layout VALUE_WIDTH="100 pt"/>
 </node>
 <node TEXT="images" POSITION="bottom_or_right" ID="ID_723709077"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -1250,8 +1240,7 @@
       Images can be added automatically by releaseAddOn.groovy or must be uploaded into the map via the script <i>Tools-&gt;Scripts-&gt;Insert Binary</i>&#xa0;since they have to be (base64) encoded as simple strings.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="${name}.png" ID="ID_1002402838"/>
 <node TEXT="${name}-icon.png" ID="ID_1000617651">
 <attribute_layout VALUE_WIDTH="100 pt"/>
@@ -1268,8 +1257,7 @@
   <body>
     Direct links to menu commands
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Build add-on" ID="ID_1113925331" LINK="menuitem:_addons.devtools.checkAddOn_on_single_node"/>
 <node TEXT="Package add-on for publication" ID="ID_344644492" LINK="menuitem:_addons.devtools.releaseAddOn_on_single_node"/>
 <node TEXT="Export Translations" ID="ID_1121027378" LINK="menuitem:_addons.devtools.exportTranslations_on_single_node"/>
