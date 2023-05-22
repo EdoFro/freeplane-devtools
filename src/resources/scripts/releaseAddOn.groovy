@@ -275,13 +275,23 @@ private createLatestHistoryFile(Proxy.Node releaseMapRoot) {
     def texto = new StringBuilder("# History\n")
     changesNode.children.reverse().each{ v ->
         texto << "\n" << "## ${v.text}"  << "\n\n" 
-        v.children.each{ n ->
-            texto << "* ${n.text}"  << "\n"
-        }
+		      << listOfChanges(v)
     }
     def file = new File(mapFile.parent,  "history.md")
     file.setText(texto.toString(), 'UTF-8')
 }
+
+private listOfChanges(ndo, niv = 0){
+    def sb = new StringBuilder()
+    ndo.children.each{ n ->
+        sb << "${'  '*niv}* ${n.text}"  << "\n"
+        if(!n.leaf){
+            sb << listOfChanges(n, niv + 1)
+        }
+    }
+    return sb
+}
+
 
 private URL toUrl(Proxy.Node root, String urlString) {
     if (urlString == null)

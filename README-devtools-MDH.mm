@@ -1,17 +1,39 @@
-<map version="freeplane 1.9.13">
+<map version="freeplane 1.11.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <attribute_registry SHOW_ATTRIBUTES="hide"/>
 <node LOCALIZED_TEXT="new_mindmap" FOLDED="false" ID="ID_696401721" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="0.909">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" mapUsesOwnSaveOptions="true" associatedTemplateLocation="template:/MarkdownHelper/MarkdownHelper%20template.mm" followedTemplateLocation="template:/MarkdownHelper/MarkdownHelper%20template.mm" show_icon_for_attributes="true" show_notes_in_map="false" save_modification_times="false" save_last_visited_node="default" show_note_icons="true" save_folding="default" followedMapLastTime="1642350882829" fit_to_viewport="false"/>
+<hook NAME="MapStyle" zoom="0.8">
+    <conditional_styles>
+        <conditional_style ACTIVE="true" STYLE_REF="containsNextTasks" LAST="true">
+            <script_condition>
+                <script>(node.findAll() - node)?.any{it.style.name == &apos;nextTask&apos;}</script>
+            </script_condition>
+        </conditional_style>
+        <conditional_style ACTIVE="false" STYLE_REF="containsNextTasks" LAST="true">
+            <script_condition>
+                <script>(node.findAll() - node)?.any{it.style.name == &apos;Siguiente tarea&apos;} </script>
+            </script_condition>
+        </conditional_style>
+        <conditional_style ACTIVE="true" STYLE_REF="containsPendingTasks" LAST="true">
+            <script_condition>
+                <script>(node.findAll() - node)?.any{it.style.name == &apos;pendingTask&apos;}</script>
+            </script_condition>
+        </conditional_style>
+        <conditional_style ACTIVE="false" STYLE_REF="containsPendingTasks" LAST="true">
+            <script_condition>
+                <script>(node.findAll() - node)?.any{it.style.name == &apos;Tarea pendiente&apos;} </script>
+            </script_condition>
+        </conditional_style>
+    </conditional_styles>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" mapUsesOwnSaveOptions="true" associatedTemplateLocation="template:/MarkdownHelper/MarkdownHelper%20template.mm" followedTemplateLocation="template:/MarkdownHelper/MarkdownHelper%20template.mm" show_icon_for_attributes="true" show_notes_in_map="false" save_modification_times="false" save_last_visited_node="default" show_note_icons="true" save_folding="default" followedMapLastTime="1683593176201" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" ID="ID_1758066171" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_271890427" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#000000" STYLE="fork" NUMBERED="false" FORMAT="STANDARD_FORMAT" TEXT_ALIGN="DEFAULT" MAX_WIDTH="10 cm" MIN_WIDTH="0 cm" VGAP_QUANTITY="2 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#808080" BORDER_DASH_LIKE_EDGE="false" BORDER_DASH="SOLID">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_271890427" STARTINCLINATION="65.25 pt;-27.75 pt;" ENDINCLINATION="55.5 pt;18.75 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_271890427" STARTINCLINATION="65.25 pt;-32.25 pt;" ENDINCLINATION="55.5 pt;18.75 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
@@ -47,7 +69,7 @@ blockquote {
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" ID="ID_1886070887" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" ID="ID_1886070887" STYLE="bubble">
 <stylenode TEXT="MarkdownHelperNode" ID="ID_916254995" COLOR="#dbffdb" BACKGROUND_COLOR="#333333" STYLE="rectangle" BORDER_WIDTH="4 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#009000">
 <icon BUILTIN="emoji-1F343"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/markdown"/>
@@ -85,14 +107,50 @@ blockquote {
 <stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.important" ID="ID_269997139">
+<stylenode LOCALIZED_TEXT="styles.important" ID="ID_1753082284">
 <icon BUILTIN="yes"/>
 </stylenode>
-<stylenode TEXT="fullMarkDown" ID="ID_875524079" BACKGROUND_COLOR="#e0eae0" FORMAT="markdownPatternFormat"><richcontent CONTENT-TYPE="plain/markdown" TYPE="DETAILS"/>
+<stylenode TEXT="fullMarkDown" ID="ID_1483197001" BACKGROUND_COLOR="#e0eae0" FORMAT="markdownPatternFormat"><richcontent CONTENT-TYPE="plain/markdown" TYPE="DETAILS"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/markdown"/>
 </stylenode>
+<stylenode TEXT="nextTask" BACKGROUND_COLOR="#ffff33">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="unchecked"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
+<stylenode TEXT="pendingTask" BACKGROUND_COLOR="#99ffff">
+<icon BUILTIN="unchecked"/>
+</stylenode>
+<stylenode TEXT="maybeTask" BACKGROUND_COLOR="#cefcfc">
+<icon BUILTIN="emoji-23FA"/>
+</stylenode>
+<stylenode TEXT="completedTask" COLOR="#333333" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="checked"/>
+<font ITALIC="true"/>
+</stylenode>
+<stylenode TEXT="discardedTask" COLOR="#666666" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="Descartado"/>
+<font ITALIC="true"/>
+</stylenode>
+<stylenode TEXT="containsNextTasks" BACKGROUND_COLOR="#eaea86">
+<icon BUILTIN="emoji-1F7E5"/>
+</stylenode>
+<stylenode TEXT="containsPendingTasks" BACKGROUND_COLOR="#b5d7d7">
+<icon BUILTIN="emoji-23F9"/>
+</stylenode>
+<stylenode TEXT="project" COLOR="#e1e19c" BACKGROUND_COLOR="#1c1c63">
+<icon BUILTIN="emoji-1F5C2"/>
+<attribute NAME="projectCode" VALUE=""/>
+</stylenode>
+<stylenode TEXT="tasksBucket">
+<icon BUILTIN="emoji-1F5C3"/>
+<font BOLD="true"/>
+</stylenode>
+<stylenode TEXT="milestone">
+<icon BUILTIN="emoji-1F6A9"/>
+<font BOLD="true"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" ID="ID_1479265455" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
@@ -119,7 +177,7 @@ blockquote {
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="README.md" STYLE_REF="MarkdownHelperNode" POSITION="right" ID="ID_1638680456" LINK="file:/C:/Users/Edo/Documents/GitHub/freeplane-devtools/README.md">
+<node TEXT="README.md" STYLE_REF="MarkdownHelperNode" POSITION="bottom_or_right" ID="ID_1638680456" LINK="file:/C:/Users/efroh/GitHub/freeplane-devtools/README.md">
 <attribute NAME="headersToUnderline" VALUE="0" OBJECT="org.freeplane.features.format.FormattedNumber|0|#0.####"/>
 <attribute NAME="hideFolded" VALUE="false"/>
 <attribute NAME="headerNumbering" VALUE="true"/>
@@ -131,17 +189,11 @@ blockquote {
 <attribute NAME="ignoreHeaderNotes" VALUE="true"/>
 <attribute NAME="ignoreLeafDetails" VALUE="false"/>
 <attribute NAME="ignoreHeaderImageObjects" VALUE="false"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      = edofro.MarkDownHelper.MDH.document(node)
-    </p>
-  </body>
-</html></richcontent>
+<richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto">
+    <text>= edofro.MarkDownHelper.MDH.document(node)
+//xzc zac
+</text>
+</richcontent>
 <node TEXT="freeplane-devtools" ID="ID_878825798">
 <node TEXT="About this fork" ID="ID_1773039584" VGAP_QUANTITY="2 pt">
 <node TEXT="Markdown document.md" STYLE_REF="MarkdownHelperNode" ID="ID_1325326077">
@@ -156,17 +208,9 @@ blockquote {
 <attribute NAME="ignoreHeaderNotes" VALUE="true"/>
 <attribute NAME="ignoreLeafDetails" VALUE="false"/>
 <attribute NAME="ignoreHeaderImageObjects" VALUE="false"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      = edofro.MarkDownHelper.MDH.document(node)
-    </p>
-  </body>
-</html></richcontent>
+<richcontent TYPE="NOTE" CONTENT-TYPE="plain/">
+    <text>= edofro.MarkDownHelper.MDH.document(node)</text>
+</richcontent>
 <node TEXT="text block" STYLE_REF="MarkdownHelperNode" ID="ID_578025344"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -398,7 +442,7 @@ blockquote {
   </head>
   <body>
     <p>
-      The instalable file (```$1-$2.addon.mm```) of the latest version of the this fork can be downloaded from $3.
+      The instalable file (```$1-$2.addon.mm```) of the latest version of this fork can be downloaded from $3.
     </p>
   </body>
 </html></richcontent>
@@ -425,12 +469,15 @@ blockquote {
 <node TEXT="bye,&#xa;&#xa;edo" ID="ID_965908873"/>
 </node>
 </node>
-<node TEXT="Description" FOLDED="true" ID="ID_328053546" VGAP_QUANTITY="2 pt">
+<node TEXT="Description" ID="ID_328053546" VGAP_QUANTITY="2 pt">
 <attribute_layout VALUE_WIDTH="100 pt"/>
 <node TEXT="This add-on collects some utilities that script and/or add-on developers will find useful." ID="ID_1307232320"/>
 <node TEXT="The functions are available under Tools -&gt; Development Tools" ID="ID_430754274"/>
 <node TEXT="Features in standard version (v.0.9.27)" ID="ID_80809317">
-<node TEXT="list" STYLE_REF="MarkdownHelperNode" ID="ID_243684558"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<icon BUILTIN="emoji-1F53B"/>
+<node TEXT="here comes a list" FOLDED="true" ID="ID_147254243">
+<icon BUILTIN="emoji-1F648"/>
+<node TEXT="list" STYLE_REF="MarkdownHelperNode" POSITION="bottom_or_right" ID="ID_243684558"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -467,8 +514,12 @@ blockquote {
 </node>
 </node>
 </node>
+</node>
 <node TEXT="Features added by gpapp version" ID="ID_799846000">
-<node TEXT="list" STYLE_REF="MarkdownHelperNode" ID="ID_635378375"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<icon BUILTIN="emoji-1F53B"/>
+<node TEXT="here comes a list" FOLDED="true" ID="ID_296495673">
+<icon BUILTIN="emoji-1F648"/>
+<node TEXT="list" STYLE_REF="MarkdownHelperNode" POSITION="bottom_or_right" ID="ID_635378375"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -489,9 +540,14 @@ blockquote {
 </node>
 </node>
 </node>
+</node>
 <node TEXT="Features added by this version" ID="ID_147925723">
+<icon BUILTIN="emoji-1F53B"/>
 <node TEXT="changes to add-on parameters" ID="ID_52583889">
-<node TEXT="list" STYLE_REF="MarkdownHelperNode" ID="ID_1819954991"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<icon BUILTIN="emoji-1F53B"/>
+<node TEXT="here comes a list" FOLDED="true" ID="ID_1499043100">
+<icon BUILTIN="emoji-1F648"/>
+<node TEXT="list" STYLE_REF="MarkdownHelperNode" POSITION="bottom_or_right" ID="ID_1819954991"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -550,10 +606,28 @@ blockquote {
 <node TEXT="&apos;/menu_bar/myAddons&apos;" ID="ID_574109293"/>
 </node>
 </node>
+<node TEXT="**changeLogURL**" ID="ID_585495645">
+<node TEXT="URL of the file containing the history of changes done to the add-on." ID="ID_1130668240"/>
+<node TEXT="By default: &quot;S{homepage}/history.md&quot;" ID="ID_1577956111"/>
+<node TEXT="**changes:**" ID="ID_814038942">
+<node TEXT="You can define a different place or a subfolder of the homepage" ID="ID_197447284"/>
+<node TEXT="You can use other properties when defining the URL" ID="ID_1463021050"/>
+</node>
+<node TEXT="Example:" ID="ID_687639456">
+<node TEXT="&quot;S{homepage}/files/history.md&quot;" ID="ID_322048176"/>
+</node>
+<node TEXT="Example for a **Github add-on repository**:" ID="ID_343222307">
+<node TEXT="${homepage}/releases/download/${version}/history.md" ID="ID_86845625"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="&quot;actions&quot; node" ID="ID_1098166546">
-<node TEXT="list" STYLE_REF="MarkdownHelperNode" ID="ID_1069431078"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<icon BUILTIN="emoji-1F53B"/>
+<node TEXT="here comes a list" FOLDED="true" ID="ID_437513963">
+<icon BUILTIN="emoji-1F648"/>
+<node TEXT="list" STYLE_REF="MarkdownHelperNode" POSITION="bottom_or_right" ID="ID_1069431078"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -574,8 +648,12 @@ blockquote {
 <node TEXT="This node is just to facilitate the access to these commands" ID="ID_677846402"/>
 </node>
 </node>
+</node>
 <node TEXT="new commands" ID="ID_992339106">
-<node TEXT="list" STYLE_REF="MarkdownHelperNode" ID="ID_1977967499"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<icon BUILTIN="emoji-1F53B"/>
+<node TEXT="here comes a list" FOLDED="true" ID="ID_1602185553">
+<icon BUILTIN="emoji-1F648"/>
+<node TEXT="list" STYLE_REF="MarkdownHelperNode" POSITION="bottom_or_right" ID="ID_1977967499"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -639,10 +717,18 @@ blockquote {
 <node TEXT="Inserts a node with the properties information of the installed add-on you select" ID="ID_1303739816"/>
 <node TEXT="A dialog appears where you can select from a list with all the installed add-ons" ID="ID_1546556617"/>
 </node>
+<node TEXT="**generate Addons Properties Map**" POSITION="bottom_or_right" ID="ID_268452766">
+<node TEXT="Creates a mind map with the parameter information of all installed add-ons" ID="ID_1631367849"/>
+<node TEXT="I use this to see if the installed add-on has the right URL to its hompage and updating information." ID="ID_1841733196"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="other changes" ID="ID_1056104045">
-<node TEXT="list" STYLE_REF="MarkdownHelperNode" ID="ID_473078812"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<icon BUILTIN="emoji-1F53B"/>
+<node TEXT="here comes a list" FOLDED="true" ID="ID_762532069">
+<icon BUILTIN="emoji-1F648"/>
+<node TEXT="list" STYLE_REF="MarkdownHelperNode" POSITION="bottom_or_right" ID="ID_473078812"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -653,56 +739,34 @@ blockquote {
     </p>
   </body>
 </html></richcontent>
-<node TEXT="Now it proposes a menu text for the new scripts based on its file name" ID="ID_1343062747">
+<node TEXT="&quot;**Build add-on**&quot; now proposes a menu text for the new scripts based on their file name" ID="ID_1343062747">
 <node TEXT="It transform a camelCase file name into a normal phrase" ID="ID_240366936"/>
 </node>
-<node TEXT="&quot;**Package add-on for publication**&quot; can now open the new add-on for direct installation" ID="ID_250352766"/>
-</node>
-</node>
-</node>
-<node TEXT="New in v0.9.30:" ID="ID_250849647">
-<node TEXT="list" STYLE_REF="MarkdownHelperNode" ID="ID_955469551"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      = edofro.MarkDownHelper.MDH.list(node)
-    </p>
-  </body>
-</html></richcontent>
-<node TEXT="Now you can add the **preference parameters** as *attributes* in the &quot;preferences.xml&quot; node and it will automatically" ID="ID_1073930958">
+<node TEXT="You can add the **preference parameters** as *attributes* in the &quot;preferences.xml&quot; node and it will automatically" POSITION="bottom_or_right" ID="ID_1073930958">
 <node TEXT="**build the XML** text as the child node" ID="ID_1885095672"/>
 <node TEXT="add the preferences to the **properties.default** node, where you can define their default values" ID="ID_685855381"/>
 <node TEXT="add the preferences to the **translations** node, where you can define their **Option panel**  *labels* and *tooltips* texts" ID="ID_1547385581"/>
 </node>
+<node TEXT="&quot;**Package add-on for publication**&quot; can open the new add-on for direct installation" ID="ID_250352766">
+<node TEXT="this makes developing iteration easier and faster" ID="ID_663081344"/>
 </node>
+<node TEXT="&quot;**Package add-on for publication**&quot; automatically creates and updates &apos;**history.md**&apos; file" POSITION="bottom_or_right" ID="ID_1372738195">
+<node TEXT="It automatically creates a &quot;**history.md**&quot; file using the information from the &quot;**changes**&quot; node" ID="ID_1257424063"/>
+<node TEXT="history.md can handle multiple levels" POSITION="bottom_or_right" ID="ID_724077191"/>
 </node>
-<node TEXT="New in v0.9.31:" ID="ID_1227746329">
-<node TEXT="list" STYLE_REF="MarkdownHelperNode" ID="ID_632094024"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      = edofro.MarkDownHelper.MDH.list(node)
-    </p>
-  </body>
-</html></richcontent>
-<node TEXT="**changeLogURL** added as **preference parameter**" ID="ID_585495645"/>
-<node TEXT=" **change log URL** property to **version.properties**" ID="ID_846931039">
+<node TEXT=" &quot;**Package add-on for publication**&quot; adds **change log URL** property into **version.properties** file" POSITION="bottom_or_right" ID="ID_846931039">
 <node TEXT="Now it adds the **changelogurl** property to the **version.properties** file" ID="ID_173510244"/>
 <node TEXT="This way the user can download the **History** file directly from Freeplane&apos;s **check updates** dialog" ID="ID_1124481452"/>
 </node>
-<node TEXT="automatically creates and updates &apos;**history.md**&apos; file" ID="ID_1372738195">
-<node TEXT="&quot;**Package add-on for publication**&quot; automatically creates a &quot;**history.md**&quot; file using the information form the &quot;**changes**&quot; node" ID="ID_1257424063"/>
+</node>
 </node>
 </node>
 </node>
 </node>
 <node TEXT="Change Log" ID="ID_309963735">
+<icon BUILTIN="emoji-1F53B"/>
+<node TEXT="here comes a list" FOLDED="true" ID="ID_1487372606">
+<icon BUILTIN="emoji-1F648"/>
 <node TEXT="list" STYLE_REF="MarkdownHelperNode" ID="ID_1015823873"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -714,7 +778,15 @@ blockquote {
     </p>
   </body>
 </html></richcontent>
-<node TEXT="v0.9.31" ID="ID_1185204241">
+<node TEXT="v0.10.1" FOLDED="true" ID="ID_1014535172">
+<node TEXT="saved with Freeplane 1.11.1 (not compatible with previous versions)" ID="ID_1597818265"/>
+<node TEXT="Styles changed in addon .mm file" ID="ID_1068019535"/>
+<node TEXT="Added generateAddonsPropertiesMap command with its own template file" ID="ID_1413386255">
+<node TEXT="I use this to see if the installed add-on has the right URL to its hompage and updating information." ID="ID_1256152432"/>
+</node>
+<node TEXT="List of changes in history.md now can handle multiple levels" ID="ID_796155408"/>
+</node>
+<node TEXT="v0.9.31" FOLDED="true" ID="ID_1185204241">
 <node TEXT="now it creates and updates &apos;history.md&apos; file" ID="ID_474363164"/>
 <node TEXT="adds changelogurl property to version.properties file" ID="ID_1264034468"/>
 <node TEXT="changeLogURL added as preference parameter" ID="ID_1782400840"/>
@@ -852,7 +924,8 @@ blockquote {
 </node>
 </node>
 </node>
-<node TEXT="temp scripts" POSITION="right" ID="ID_421122053">
+</node>
+<node TEXT="temp scripts" POSITION="bottom_or_right" ID="ID_421122053">
 <node TEXT="bold nodes" ID="ID_635130219"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -883,8 +956,9 @@ blockquote {
 </html></richcontent>
 </node>
 </node>
-<node TEXT="**IMPORTANT**:  &#xa;This map needs that the **MarkdownHelper** add-on is installed to work properly." LOCALIZED_STYLE_REF="styles.important" POSITION="left" ID="ID_1035125343" ICON_SIZE="96 pt" BACKGROUND_COLOR="#ffff00" STYLE="rectangle" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt" FORMAT="markdownPatternFormat" BORDER_WIDTH="3 px" MAX_WIDTH="13 cm">
+<node TEXT="**IMPORTANT**:  &#xa;This map needs that the **MarkdownHelper** add-on is installed to work properly." LOCALIZED_STYLE_REF="styles.important" POSITION="top_or_left" ID="ID_1035125343" ICON_SIZE="96 pt" BACKGROUND_COLOR="#ffff00" STYLE="rectangle" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt" FORMAT="markdownPatternFormat" BORDER_WIDTH="3 px" MAX_WIDTH="13 cm">
 <font SIZE="18" BOLD="false"/>
 </node>
+<node TEXT="README.md" POSITION="bottom_or_right" ID="ID_1155000096" LINK="README.md"/>
 </node>
 </map>
