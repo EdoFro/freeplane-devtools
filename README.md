@@ -136,7 +136,7 @@ The functions are available under Tools -> Development Tools
 </details>
 <details><summary><h4>2.3.4. other changes</h4></summary>
 
-- It proposes a menu text for the new scripts based on its file name
+- "**Build add-on**" now proposes a menu text for the new scripts based on their file name
    - It transform a camelCase file name into a normal phrase
 - You can add the **preference parameters** as *attributes* in the "preferences.xml" node and it will automatically
    - **build the XML** text as the child node
@@ -145,7 +145,7 @@ The functions are available under Tools -> Development Tools
 - "**Package add-on for publication**" can open the new add-on for direct installation
    - this makes developing iteration easier and faster
 - "**Package add-on for publication**" automatically creates and updates '**history.md**' file
-   - "**Package add-on for publication**" automatically creates a "**history.md**" file using the information form the "**changes**" node
+   - It automatically creates a "**history.md**" file using the information from the "**changes**" node
    - history.md can handle multiple levels
 -  "**Package add-on for publication**" adds **change log URL** property into **version.properties** file
    - Now it adds the **changelogurl** property to the **version.properties** file

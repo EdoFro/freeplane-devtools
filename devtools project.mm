@@ -288,7 +288,6 @@ blockquote {
 <attribute NAME="lastAccessTime" VALUE="07-03-22 19:52" OBJECT="org.freeplane.features.format.FormattedDate|2022-03-07T19:52-0300|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="16-01-22 14:49" OBJECT="org.freeplane.features.format.FormattedDate|2022-01-16T14:49-0300|datetime"/>
 <attribute NAME="fileSize" VALUE="4.096" OBJECT="org.freeplane.features.format.FormattedNumber|4096|#,##0"/>
-<attribute NAME="modifiedFile" VALUE="true"/>
 <attribute NAME="linkType" VALUE="1" OBJECT="org.freeplane.features.format.FormattedNumber|1|#0.####"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/markdown">
 <html>
@@ -1142,81 +1141,81 @@ blockquote {
 <attribute NAME="lastAccessTime" VALUE="07-03-22 19:52" OBJECT="org.freeplane.features.format.FormattedDate|2022-03-07T19:52-0300|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="16-01-22 14:49" OBJECT="org.freeplane.features.format.FormattedDate|2022-01-16T14:49-0300|datetime"/>
 <attribute NAME="fileSize" VALUE="4.096" OBJECT="org.freeplane.features.format.FormattedNumber|4096|#,##0"/>
-<node TEXT="images" ID="ID_1376763496" LINK="src/resources/images/">
+<node TEXT="images" FOLDED="true" ID="ID_1376763496" LINK="src/resources/images/">
 <attribute NAME="lastModifiedTime" VALUE="18-01-22 10:48" OBJECT="org.freeplane.features.format.FormattedDate|2022-01-18T10:48-0300|dd-MM-yy HH:mm"/>
 <attribute NAME="lastAccessTime" VALUE="07-03-22 19:52" OBJECT="org.freeplane.features.format.FormattedDate|2022-03-07T19:52-0300|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="16-01-22 14:49" OBJECT="org.freeplane.features.format.FormattedDate|2022-01-16T14:49-0300|datetime"/>
 <attribute NAME="fileSize" VALUE="0" OBJECT="org.freeplane.features.format.FormattedNumber|0|#,##0"/>
 <node TEXT="devtools-icon.png" ID="ID_510979616" LINK="src/resources/images/devtools-icon.png">
 <attribute NAME="lastModifiedTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="995" OBJECT="org.freeplane.features.format.FormattedNumber|995|#,##0"/>
 </node>
 <node TEXT="devtools-screenshot-1.png" ID="ID_407097406" LINK="src/resources/images/devtools-screenshot-1.png">
 <attribute NAME="lastModifiedTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="14.303" OBJECT="org.freeplane.features.format.FormattedNumber|14303|#,##0"/>
 </node>
 <node TEXT="devtools.png" ID="ID_1746774784" LINK="src/resources/images/devtools.png">
 <attribute NAME="lastModifiedTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="2.460" OBJECT="org.freeplane.features.format.FormattedNumber|2460|#,##0"/>
 </node>
 </node>
-<node TEXT="scripts" ID="ID_536554977" LINK="src/resources/scripts/">
+<node TEXT="scripts" FOLDED="true" ID="ID_536554977" LINK="src/resources/scripts/">
 <attribute NAME="lastModifiedTime" VALUE="07-03-22 18:59" OBJECT="org.freeplane.features.format.FormattedDate|2022-03-07T18:59-0300|dd-MM-yy HH:mm"/>
 <attribute NAME="lastAccessTime" VALUE="07-03-22 19:52" OBJECT="org.freeplane.features.format.FormattedDate|2022-03-07T19:52-0300|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="16-01-22 14:49" OBJECT="org.freeplane.features.format.FormattedDate|2022-01-16T14:49-0300|datetime"/>
 <attribute NAME="fileSize" VALUE="4.096" OBJECT="org.freeplane.features.format.FormattedNumber|4096|#,##0"/>
 <node TEXT="addOnDoc.groovy" ID="ID_305593917" LINK="src/resources/scripts/addOnDoc.groovy">
 <attribute NAME="lastModifiedTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="3.157" OBJECT="org.freeplane.features.format.FormattedNumber|3157|#,##0"/>
 <node TEXT="revisar addOnDoc" STYLE_REF="pendingTask" ID="ID_1252728481"/>
 </node>
 <node TEXT="checkAddOn.groovy" ID="ID_628124001" LINK="src/resources/scripts/checkAddOn.groovy">
 <attribute NAME="lastModifiedTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="32.939" OBJECT="org.freeplane.features.format.FormattedNumber|32939|#,##0"/>
 </node>
 <node TEXT="extractBinary.groovy" ID="ID_1540779245" LINK="src/resources/scripts/extractBinary.groovy">
 <attribute NAME="lastModifiedTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="900" OBJECT="org.freeplane.features.format.FormattedNumber|900|#,##0"/>
 </node>
 <node TEXT="insertBinary.groovy" ID="ID_1010576943" LINK="src/resources/scripts/insertBinary.groovy">
 <attribute NAME="lastModifiedTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="612" OBJECT="org.freeplane.features.format.FormattedNumber|612|#,##0"/>
 </node>
 <node TEXT="menuItemInfo.groovy" ID="ID_1344346261" LINK="src/resources/scripts/menuItemInfo.groovy">
 <attribute NAME="lastModifiedTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="2.619" OBJECT="org.freeplane.features.format.FormattedNumber|2619|#,##0"/>
 </node>
 <node TEXT="releaseAddOn.groovy" ID="ID_125885480" LINK="src/resources/scripts/releaseAddOn.groovy">
 <attribute NAME="lastModifiedTime" VALUE="07-05-23 19:53" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:53-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="15.985" OBJECT="org.freeplane.features.format.FormattedNumber|15985|#,##0"/>
 </node>
 <node TEXT="encodeTranslations.groovy" ID="ID_107808104" LINK="src/resources/scripts/encodeTranslations.groovy">
 <attribute NAME="lastModifiedTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="642" OBJECT="org.freeplane.features.format.FormattedNumber|642|#,##0"/>
 </node>
 <node TEXT="exportTranslations.groovy" ID="ID_1206839774" LINK="src/resources/scripts/exportTranslations.groovy">
 <attribute NAME="lastModifiedTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="1.275" OBJECT="org.freeplane.features.format.FormattedNumber|1275|#,##0"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -1372,7 +1371,7 @@ blockquote {
   </body>
 </html></richcontent>
 <attribute NAME="lastModifiedTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="1.624" OBJECT="org.freeplane.features.format.FormattedNumber|1624|#,##0"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -1552,7 +1551,7 @@ blockquote {
   </body>
 </html></richcontent>
 <attribute NAME="lastModifiedTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="1.848" OBJECT="org.freeplane.features.format.FormattedNumber|1848|#,##0"/>
 </node>
@@ -1568,12 +1567,12 @@ blockquote {
   </body>
 </html></richcontent>
 <attribute NAME="lastModifiedTime" VALUE="07-05-23 19:17" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:17-0400|datetime"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|datetime"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="07-05-23 14:08" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T14:08-0400|datetime"/>
 <attribute NAME="fileSize" VALUE="2.093" OBJECT="org.freeplane.features.format.FormattedNumber|2093|#,##0"/>
 </node>
 </node>
-<node TEXT="zips" ID="ID_1091167802" LINK="src/resources/zips/">
+<node TEXT="zips" FOLDED="true" ID="ID_1091167802" LINK="src/resources/zips/">
 <attribute NAME="lastModifiedTime" VALUE="18-01-22 20:18" OBJECT="org.freeplane.features.format.FormattedDate|2022-01-18T20:18-0300|datetime"/>
 <attribute NAME="lastAccessTime" VALUE="07-03-22 19:52" OBJECT="org.freeplane.features.format.FormattedDate|2022-03-07T19:52-0300|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="18-01-22 20:18" OBJECT="org.freeplane.features.format.FormattedDate|2022-01-18T20:18-0300|datetime"/>
@@ -1585,7 +1584,7 @@ blockquote {
 <attribute NAME="fileSize" VALUE="0" OBJECT="org.freeplane.features.format.FormattedNumber|0|#,##0"/>
 <node TEXT="freeplane.dsld" ID="ID_933920900" LINK="src/resources/zips/scripts/freeplane.dsld">
 <attribute NAME="lastModifiedTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="1.457" OBJECT="org.freeplane.features.format.FormattedNumber|1457|#,##0"/>
 </node>
@@ -1594,7 +1593,7 @@ blockquote {
 <node TEXT="devtools" ID="ID_394577288" LINK="src/resources/zips/templates/devtools/">
 <node TEXT="Installed AddOns Properties template.mm" ID="ID_543425847" LINK="src/resources/zips/templates/devtools/Installed%20AddOns%20Properties%20template.mm">
 <attribute NAME="lastModifiedTime" VALUE="07-05-23 19:10" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:10-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 14:18" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T14:18-0400|datetime"/>
 <attribute NAME="fileSize" VALUE="5.647" OBJECT="org.freeplane.features.format.FormattedNumber|5647|#,##0"/>
 </node>
@@ -1653,7 +1652,7 @@ blockquote {
 </node>
 </node>
 </node>
-<node TEXT="translations" ID="ID_1675689743" LINK="src/resources/translations/">
+<node TEXT="translations" FOLDED="true" ID="ID_1675689743" LINK="src/resources/translations/">
 <attribute NAME="lastModifiedTime" VALUE="07-03-22 18:59" OBJECT="org.freeplane.features.format.FormattedDate|2022-03-07T18:59-0300|dd-MM-yy HH:mm"/>
 <attribute NAME="lastAccessTime" VALUE="07-03-22 19:52" OBJECT="org.freeplane.features.format.FormattedDate|2022-03-07T19:52-0300|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="20-01-22 18:27" OBJECT="org.freeplane.features.format.FormattedDate|2022-01-20T18:27-0300|datetime"/>
@@ -1838,7 +1837,7 @@ blockquote {
   </body>
 </html></richcontent>
 <attribute NAME="lastModifiedTime" VALUE="07-05-23 14:28" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T14:28-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="597" OBJECT="org.freeplane.features.format.FormattedNumber|597|#,##0"/>
 </node>
@@ -1887,7 +1886,7 @@ blockquote {
   </body>
 </html></richcontent>
 <attribute NAME="lastModifiedTime" VALUE="07-05-23 14:28" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T14:28-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="1.699" OBJECT="org.freeplane.features.format.FormattedNumber|1699|#,##0"/>
 </node>
@@ -1936,7 +1935,7 @@ blockquote {
   </body>
 </html></richcontent>
 <attribute NAME="lastModifiedTime" VALUE="07-05-23 14:28" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T14:28-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="1.738" OBJECT="org.freeplane.features.format.FormattedNumber|1738|#,##0"/>
 </node>
@@ -1973,14 +1972,14 @@ blockquote {
   </body>
 </html></richcontent>
 <attribute NAME="lastModifiedTime" VALUE="07-05-23 14:28" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T14:28-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="358" OBJECT="org.freeplane.features.format.FormattedNumber|358|#,##0"/>
 </node>
 </node>
 <node TEXT=".gitignore" ID="ID_703555840" LINK="src/resources/.gitignore">
 <attribute NAME="lastModifiedTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:27" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:27-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 19:40" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T19:40-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="62" OBJECT="org.freeplane.features.format.FormattedNumber|62|#,##0"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -2003,56 +2002,56 @@ blockquote {
 </node>
 <node TEXT="devtools.mm" ID="ID_827211652" LINK="src/resources/devtools.mm">
 <attribute NAME="lastModifiedTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 19:16" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T19:16-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="59.876" OBJECT="org.freeplane.features.format.FormattedNumber|59876|#,##0"/>
 </node>
 <node TEXT="generados automaticamente" ID="ID_1706105806">
-<node TEXT="devtools-v0.10.1.addon.mm" STYLE_REF="freshNew" ID="ID_449305586" LINK="src/resources/devtools-v0.10.1.addon.mm">
+<node TEXT="devtools-v0.10.1.addon.mm" ID="ID_449305586" LINK="src/resources/devtools-v0.10.1.addon.mm">
 <attribute NAME="lastModifiedTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|datetime"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|datetime"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 14:30" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T14:30-0400|datetime"/>
 <attribute NAME="fileSize" VALUE="182.124" OBJECT="org.freeplane.features.format.FormattedNumber|182124|#,##0"/>
 </node>
-<node TEXT="devtools-v0.9.31.addon.mm" STYLE_REF="missing" ID="ID_1573377036" LINK="file:/C:/Users/Edo/Documents/GitHub/freeplane-devtools/src/resources/devtools-v0.9.31.addon.mm">
+<node TEXT="devtools-v0.9.31.addon.mm" ID="ID_1573377036" LINK="src/resources/devtools-v0.9.31.addon.mm">
 <attribute NAME="lastModifiedTime" VALUE="07-03-22 19:27" OBJECT="org.freeplane.features.format.FormattedDate|2022-03-07T19:27-0300|datetime"/>
-<attribute NAME="lastAccessTime" VALUE="07-03-22 19:27" OBJECT="org.freeplane.features.format.FormattedDate|2022-03-07T19:27-0300|datetime"/>
-<attribute NAME="creationTime" VALUE="07-03-22 11:25" OBJECT="org.freeplane.features.format.FormattedDate|2022-03-07T11:25-0300|datetime"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="creationTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="172.175" OBJECT="org.freeplane.features.format.FormattedNumber|172175|#,##0"/>
 </node>
-<node TEXT="devtools-v0.9.30.addon.mm" STYLE_REF="missing" ID="ID_1213226158" LINK="file:/C:/Users/Edo/Documents/GitHub/freeplane-devtools/src/resources/devtools-v0.9.30.addon.mm">
+<node TEXT="devtools-v0.9.30.addon.mm" ID="ID_1213226158" LINK="src/resources/devtools-v0.9.30.addon.mm">
 <attribute NAME="lastModifiedTime" VALUE="17-02-22 21:09" OBJECT="org.freeplane.features.format.FormattedDate|2022-02-17T21:09-0300|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-03-22 14:41" OBJECT="org.freeplane.features.format.FormattedDate|2022-03-07T14:41-0300|dd-MM-yy HH:mm"/>
-<attribute NAME="creationTime" VALUE="24-01-22 10:20" OBJECT="org.freeplane.features.format.FormattedDate|2022-01-24T10:20-0300|datetime"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="creationTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="158.709" OBJECT="org.freeplane.features.format.FormattedNumber|158709|#,##0"/>
 </node>
-<node TEXT="devtools-v0.9.29.addon.mm" STYLE_REF="missing" ID="ID_1785738401" LINK="file:/C:/Users/Edo/Documents/GitHub/freeplane-devtools/src/resources/devtools-v0.9.29.addon.mm">
+<node TEXT="devtools-v0.9.29.addon.mm" ID="ID_1785738401" LINK="src/resources/devtools-v0.9.29.addon.mm">
 <attribute NAME="lastModifiedTime" VALUE="21-01-22 10:16" OBJECT="org.freeplane.features.format.FormattedDate|2022-01-21T10:16-0300|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="29-01-22 13:16" OBJECT="org.freeplane.features.format.FormattedDate|2022-01-29T13:16-0300|dd-MM-yy HH:mm"/>
-<attribute NAME="creationTime" VALUE="20-01-22 18:07" OBJECT="org.freeplane.features.format.FormattedDate|2022-01-20T18:07-0300|datetime"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="creationTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="146.246" OBJECT="org.freeplane.features.format.FormattedNumber|146246|#,##0"/>
 </node>
-<node TEXT="devtools-v0.9.28.addon.mm" STYLE_REF="missing" ID="ID_1680589578" LINK="file:/C:/Users/Edo/Documents/GitHub/freeplane-devtools/src/resources/devtools-v0.9.28.addon.mm">
+<node TEXT="devtools-v0.9.28.addon.mm" ID="ID_1680589578" LINK="src/resources/devtools-v0.9.28.addon.mm">
 <attribute NAME="lastModifiedTime" VALUE="19-01-22 18:20" OBJECT="org.freeplane.features.format.FormattedDate|2022-01-19T18:20-0300|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="29-01-22 13:16" OBJECT="org.freeplane.features.format.FormattedDate|2022-01-29T13:16-0300|dd-MM-yy HH:mm"/>
-<attribute NAME="creationTime" VALUE="17-01-22 13:33" OBJECT="org.freeplane.features.format.FormattedDate|2022-01-17T13:33-0300|datetime"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="creationTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="138.338" OBJECT="org.freeplane.features.format.FormattedNumber|138338|#,##0"/>
 </node>
 <node TEXT="history.md" ID="ID_1016279074" LINK="src/resources/history.md">
 <attribute NAME="lastModifiedTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="07-05-23 19:53" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:53-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="3.830" OBJECT="org.freeplane.features.format.FormattedNumber|3830|#,##0"/>
 </node>
 <node TEXT="devtools.mm.bak" POSITION="bottom_or_right" ID="ID_1809490864" LINK="src/resources/devtools.mm.bak">
 <attribute NAME="lastModifiedTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|datetime"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|datetime"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 12:20" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T12:20-0400|datetime"/>
 <attribute NAME="fileSize" VALUE="59.876" OBJECT="org.freeplane.features.format.FormattedNumber|59876|#,##0"/>
 </node>
-<node TEXT="version.properties" STYLE_REF="freshNew" POSITION="bottom_or_right" ID="ID_1082252013" LINK="src/resources/version.properties">
+<node TEXT="version.properties" POSITION="bottom_or_right" ID="ID_1082252013" LINK="src/resources/version.properties">
 <attribute NAME="lastModifiedTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|datetime"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|datetime"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 14:30" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T14:30-0400|datetime"/>
 <attribute NAME="fileSize" VALUE="246" OBJECT="org.freeplane.features.format.FormattedNumber|246|#,##0"/>
 </node>
@@ -2066,26 +2065,26 @@ blockquote {
 <attribute NAME="fileSize" VALUE="4.096" OBJECT="org.freeplane.features.format.FormattedNumber|4096|#,##0"/>
 <node TEXT="devtools-v0.9.27.addon.mm" ID="ID_1043466359" LINK="previous%20versions/devtools-v0.9.27.addon.mm">
 <attribute NAME="lastModifiedTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="06-05-23 11:55" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:55-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="120.120" OBJECT="org.freeplane.features.format.FormattedNumber|120120|#,##0"/>
 <node TEXT="versión de Völker Boercher /haai henkie" ID="ID_408960039"/>
 </node>
 <node TEXT="devtools-v2.1.2.addon.mm" ID="ID_658170501" LINK="previous%20versions/devtools-v2.1.2.addon.mm">
 <attribute NAME="lastModifiedTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="06-05-23 11:55" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:55-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="93.432" OBJECT="org.freeplane.features.format.FormattedNumber|93432|#,##0"/>
 <node TEXT="version de Gpapp" ID="ID_1322051637"/>
 </node>
 <node TEXT="README.md" ID="ID_1199578283" LINK="previous%20versions/README.md">
 <attribute NAME="lastModifiedTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="06-05-23 11:55" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:55-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="1.179" OBJECT="org.freeplane.features.format.FormattedNumber|1179|#,##0"/>
 <node TEXT="README-previous versions-MDH.mm" ID="ID_555579498" LINK="previous%20versions/README-previous%20versions-MDH.mm">
 <attribute NAME="lastModifiedTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="06-05-23 11:55" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:55-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="13.191" OBJECT="org.freeplane.features.format.FormattedNumber|13191|#,##0"/>
 </node>
@@ -2093,25 +2092,26 @@ blockquote {
 </node>
 <node TEXT="LICENSE" ID="ID_1590131872" LINK="LICENSE">
 <attribute NAME="lastModifiedTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="06-05-23 11:55" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:55-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="35.797" OBJECT="org.freeplane.features.format.FormattedNumber|35797|#,##0"/>
 </node>
 <node TEXT="README.md" ID="ID_1818715066" LINK="README.md">
 <attribute NAME="lastModifiedTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="06-05-23 11:55" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:55-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="10.736" OBJECT="org.freeplane.features.format.FormattedNumber|10736|#,##0"/>
 <node TEXT="README-devtools-MDH.mm" ID="ID_1422063854" LINK="README-devtools-MDH.mm">
-<attribute NAME="lastModifiedTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="06-05-23 11:55" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:55-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastModifiedTime" VALUE="08-05-23 19:27" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T19:27-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 19:27" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T19:27-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="fileSize" VALUE="36.221" OBJECT="org.freeplane.features.format.FormattedNumber|36221|#,##0"/>
+<attribute NAME="fileSize" VALUE="37.927" OBJECT="org.freeplane.features.format.FormattedNumber|37927|#,##0"/>
+<attribute NAME="modifiedFile" VALUE="true"/>
 </node>
 </node>
 <node TEXT=".gitignore" ID="ID_113541098" LINK=".gitignore">
 <attribute NAME="lastModifiedTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:27" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:27-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 19:40" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T19:40-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="85" OBJECT="org.freeplane.features.format.FormattedNumber|85|#,##0"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -2159,14 +2159,15 @@ blockquote {
 </html></richcontent>
 </node>
 <node TEXT="devtools project.mm" ID="ID_1543027272" LINK="devtools%20project.mm">
-<attribute NAME="lastModifiedTime" VALUE="07-05-23 19:30" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:30-0400|datetime"/>
-<attribute NAME="lastAccessTime" VALUE="07-05-23 19:32" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:32-0400|datetime"/>
+<attribute NAME="lastModifiedTime" VALUE="08-05-23 19:25" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T19:25-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="08-05-23 19:40" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T19:40-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 12:04" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T12:04-0400|datetime"/>
-<attribute NAME="fileSize" VALUE="123.866" OBJECT="org.freeplane.features.format.FormattedNumber|123866|#,##0"/>
+<attribute NAME="fileSize" VALUE="112.553" OBJECT="org.freeplane.features.format.FormattedNumber|112553|#,##0"/>
+<attribute NAME="modifiedFile" VALUE="true"/>
 </node>
 </node>
 <node TEXT="new imported files" STYLE_REF="newFolderImport" ID="ID_1623143195">
-<attribute NAME="log_MDI" VALUE="2" OBJECT="org.freeplane.features.format.FormattedObject|org.freeplane.plugin.script.proxy.ConvertibleText&amp;#x7c;2|number:decimal:#0.####"/>
+<attribute NAME="log_MDI" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2|#0.####"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -2174,7 +2175,7 @@ blockquote {
   </head>
   <body>
     <p>
-      Inated:&#xa0;&#xa0;&#xa0;2023-05-07&#xa0;&#xa0;19:58:31
+      Inated:&#xa0;&#xa0;&#xa0;2023-05-20&#xa0;&#xa0;17:59:22
     </p>
     <p>
       
@@ -2183,7 +2184,7 @@ blockquote {
       ------- Files: --------&#xa0;
     </p>
     <p>
-      &#xa0;4 node(s) pointing to unexisting/filtered files (marked as 'broken')
+      &#xa0;0 node(s) pointing to unexisting/filtered files (marked as 'broken')
     </p>
     <p>
       &#xa0;0 link(s) corrected in nodes
@@ -2204,7 +2205,7 @@ blockquote {
       ------- Folders: --------&#xa0;
     </p>
     <p>
-      11 folders didn't need to be moved&#xa0;
+      10 folders didn't need to be moved&#xa0;
     </p>
     <p>
       
@@ -2213,7 +2214,7 @@ blockquote {
       
     </p>
     <p>
-      0.1 seconds
+      0.4 seconds
     </p>
     <p>
       
