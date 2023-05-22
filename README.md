@@ -55,7 +55,7 @@ The functions are available under Tools -> Development Tools
    - Translations must be named as LC.properties and must be in *UTF-8*!
 
 </details>
-### 2.3. Features added by this version
+<details><summary><h3>2.3. Features added by this version</h3></summary>
 
 <details><summary><h4>2.3.1. changes to add-on parameters</h4></summary>
 
@@ -92,6 +92,16 @@ The functions are available under Tools -> Development Tools
    - This attribute is mandatory
    - Example:
       - '/menu_bar/myAddons'
+- **changeLogURL**
+   - URL of the file containing the history of changes done to the add-on.
+   - By default: "S{homepage}/history.md"
+   - **changes:**
+      - You can define a different place or a subfolder of the homepage
+      - You can use other properties when defining the URL
+   - Example:
+      - "S{homepage}/files/history.md"
+   - Example for a **Github add-on repository**:
+      - ${homepage}/releases/download/${version}/history.md
 
 </details>
 <details><summary><h4>2.3.2. "actions" node</h4></summary>
@@ -119,41 +129,29 @@ The functions are available under Tools -> Development Tools
 - **Inspect installed Add-On**
    - Inserts a node with the properties information of the installed add-on you select
    - A dialog appears where you can select from a list with all the installed add-ons
+- **generate Addons Properties Map**
+   - Creates a mind map with the parameter information of all installed add-ons
+   - I use this to see if the installed add-on has the right URL to its hompage and updating information.
 
 </details>
 <details><summary><h4>2.3.4. other changes</h4></summary>
 
-- Now it proposes a menu text for the new scripts based on its file name
+- It proposes a menu text for the new scripts based on its file name
    - It transform a camelCase file name into a normal phrase
-- "**Package add-on for publication**" can now open the new add-on for direct installation
-
-</details>
-<details><summary><h4>2.3.5. New in v0.9.30:</h4></summary>
-
-- Now you can add the **preference parameters** as *attributes* in the "preferences.xml" node and it will automatically
+- You can add the **preference parameters** as *attributes* in the "preferences.xml" node and it will automatically
    - **build the XML** text as the child node
    - add the preferences to the **properties.default** node, where you can define their default values
    - add the preferences to the **translations** node, where you can define their **Option panel**  *labels* and *tooltips* texts
-
-</details>
-<details><summary><h4>2.3.6. New in v0.9.31:</h4></summary>
-
-- **changeLogURL** added as **preference parameter**
--  **change log URL** property to **version.properties**
+- "**Package add-on for publication**" can open the new add-on for direct installation
+   - this makes developing iteration easier and faster
+- "**Package add-on for publication**" automatically creates and updates '**history.md**' file
+   - "**Package add-on for publication**" automatically creates a "**history.md**" file using the information form the "**changes**" node
+   - history.md can handle multiple levels
+-  "**Package add-on for publication**" adds **change log URL** property into **version.properties** file
    - Now it adds the **changelogurl** property to the **version.properties** file
    - This way the user can download the **History** file directly from Freeplane's **check updates** dialog
-- automatically creates and updates '**history.md**' file
-   - "**Package add-on for publication**" automatically creates a "**history.md**" file using the information form the "**changes**" node
 
 </details>
-<details><summary><h4>2.3.7. New in v0.10.1</h4></summary>
-
-- saved with Freeplane 1.11.1 (not compatible with previous versions)
-- Styles changed in addon .mm file
-- Added generateAddonsPropertiesMap command with its own template file
-   - I use this to see if the installed add-on has the right URL to its hompage and updating information.
-- List of changes in history.md now can handle multiple levels
-
 </details>
 <details><summary><h2>3. Change Log</h2></summary>
 
