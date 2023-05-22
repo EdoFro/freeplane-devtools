@@ -55,9 +55,9 @@ The functions are available under Tools -> Development Tools
    - Translations must be named as LC.properties and must be in *UTF-8*!
 
 </details>
-<details><summary><h3>2.3. Features added by this version</h3></summary>
+### 2.3. Features added by this version
 
-#### 2.3.1. changes to add-on parameters
+<details><summary><h4>2.3.1. changes to add-on parameters</h4></summary>
 
 - **homepage**
    - **change:** It is a new property
@@ -93,7 +93,8 @@ The functions are available under Tools -> Development Tools
    - Example:
       - '/menu_bar/myAddons'
 
-#### 2.3.2. "actions" node
+</details>
+<details><summary><h4>2.3.2. "actions" node</h4></summary>
 
 - When building a new add-on, now it adds a new "**action**" node.
 - This node has children nodes with links to following menu commands:
@@ -103,7 +104,8 @@ The functions are available under Tools -> Development Tools
    - **Import Translations**
 - This node is just to facilitate the access to these commands
 
-#### 2.3.3. new commands
+</details>
+<details><summary><h4>2.3.3. new commands</h4></summary>
 
 - **Export Translation**
    - Exports translations as properties files to 'translations' folder
@@ -118,14 +120,15 @@ The functions are available under Tools -> Development Tools
    - Inserts a node with the properties information of the installed add-on you select
    - A dialog appears where you can select from a list with all the installed add-ons
 
-#### 2.3.4. other changes
+</details>
+<details><summary><h4>2.3.4. other changes</h4></summary>
 
 - Now it proposes a menu text for the new scripts based on its file name
    - It transform a camelCase file name into a normal phrase
 - "**Package add-on for publication**" can now open the new add-on for direct installation
 
 </details>
-<details><summary><h3>2.4. New in v0.9.30:</h3></summary>
+<details><summary><h4>2.3.5. New in v0.9.30:</h4></summary>
 
 - Now you can add the **preference parameters** as *attributes* in the "preferences.xml" node and it will automatically
    - **build the XML** text as the child node
@@ -133,7 +136,7 @@ The functions are available under Tools -> Development Tools
    - add the preferences to the **translations** node, where you can define their **Option panel**  *labels* and *tooltips* texts
 
 </details>
-<details><summary><h3>2.5. New in v0.9.31:</h3></summary>
+<details><summary><h4>2.3.6. New in v0.9.31:</h4></summary>
 
 - **changeLogURL** added as **preference parameter**
 -  **change log URL** property to **version.properties**
@@ -143,7 +146,7 @@ The functions are available under Tools -> Development Tools
    - "**Package add-on for publication**" automatically creates a "**history.md**" file using the information form the "**changes**" node
 
 </details>
-<details><summary><h3>2.6. New in v0.10.1</h3></summary>
+<details><summary><h4>2.3.7. New in v0.10.1</h4></summary>
 
 - saved with Freeplane 1.11.1 (not compatible with previous versions)
 - Styles changed in addon .mm file
