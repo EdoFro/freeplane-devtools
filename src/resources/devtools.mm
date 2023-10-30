@@ -1,17 +1,17 @@
-<map version="freeplane 1.11.1">
+<map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="devtools" FOLDED="false" ID="ID_1723255651" LINK="https://github.com/EdoFro/freeplane-devtools">
-<attribute_layout NAME_WIDTH="116.25 pt" VALUE_WIDTH="310.49999 pt"/>
+<attribute_layout NAME_WIDTH="120.75 pt" VALUE_WIDTH="314.99999 pt"/>
 <attribute NAME="name" VALUE="devtools"/>
-<attribute NAME="version" VALUE="v0.10.2"/>
+<attribute NAME="version" VALUE="v2.2.3"/>
 <attribute NAME="author" VALUE="Volker Börchers, Henk van den Akker, Gergely Papp, Edo Frohlich"/>
-<attribute NAME="freeplaneVersionFrom" VALUE="v1.11"/>
+<attribute NAME="freeplaneVersionFrom" VALUE="v1.11.8"/>
 <attribute NAME="freeplaneVersionTo" VALUE=""/>
 <attribute NAME="addonsMenu" VALUE="main_menu_scripting"/>
 <attribute NAME="downloadUrl" VALUE="${homepage}/releases/download/${version}/"/>
 <attribute NAME="updateUrl" VALUE="${homepage}/releases/latest/download/version.properties"/>
 <attribute NAME="changelogUrl" VALUE="${homepage}/releases/latest/download/history.md"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -83,7 +83,8 @@
       </li>
     </ul>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <hook NAME="MapStyle" background="#002b36" zoom="0.909">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" mapUsesOwnSaveOptions="true" save_modification_times="false" save_last_visited_node="default" show_note_icons="true" associatedTemplateLocation="template:/dark_solarized_AddOn_template.mm" save_folding="default" fit_to_viewport="false"/>
 
@@ -92,10 +93,10 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1664261437" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#002b36" BACKGROUND_COLOR="#fdf6e3" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" NUMBERED="false" FORMAT="STANDARD_FORMAT" TEXT_ALIGN="DEFAULT" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt" COMMON_HGAP_QUANTITY="14 pt" MAX_WIDTH="10 cm" MIN_WIDTH="0 cm" CHILD_NODES_LAYOUT="AUTO">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#fdf6e3" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1664261437" STARTINCLINATION="132.75 pt;-24.75 pt;" ENDINCLINATION="132.75 pt;24 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#fdf6e3" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1664261437" STARTINCLINATION="132.75 pt;-22.5 pt;" ENDINCLINATION="132.75 pt;24 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="11" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#93a1a1" WIDTH="3" DASH="SOLID"/>
-<richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
+<richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details" ID="ID_1828171055" COLOR="#fdf6e3" BACKGROUND_COLOR="#073642">
@@ -160,7 +161,7 @@
 </map_styles>
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<node TEXT="description" FOLDED="true" POSITION="top_or_left" ID="ID_328053546" VGAP_QUANTITY="2 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="description" FOLDED="true" POSITION="top_or_left" ID="ID_328053546" VGAP_QUANTITY="2 pt"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -176,7 +177,8 @@
       To translate the description you have to define a translation for the key 'addons.${name}.description'.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <attribute_layout VALUE_WIDTH="100 pt"/>
 <node ID="ID_1187826020" VSHIFT_QUANTITY="2.25 pt"><richcontent TYPE="NODE">
 
@@ -230,7 +232,7 @@
 </html>
 </richcontent>
 <attribute_layout VALUE_WIDTH="100 pt"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -245,7 +247,7 @@
 </html></richcontent>
 </node>
 </node>
-<node TEXT="scripts" FOLDED="true" POSITION="bottom_or_right" ID="ID_788417856"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="scripts" FOLDED="true" POSITION="bottom_or_right" ID="ID_788417856"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -360,8 +362,9 @@
       &#xa0;&#xa0;- In any case set execute_scripts_without_asking to true unless you want to annoy users.
     </p>
   </body>
-</html></richcontent>
-<node TEXT="checkAddOn.groovy" ID="ID_1651569668"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+</html>
+</richcontent>
+<node TEXT="checkAddOn.groovy" ID="ID_1651569668"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -401,7 +404,7 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="releaseAddOn.groovy" ID="ID_1385129437"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="releaseAddOn.groovy" ID="ID_1385129437"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -449,7 +452,7 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -467,7 +470,7 @@
   </body>
 </html></richcontent>
 </node>
-<node TEXT="menuItemInfo.groovy" ID="ID_1073334594"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="menuItemInfo.groovy" ID="ID_1073334594"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -489,7 +492,7 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="insertBinary.groovy" ID="ID_1004069036"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="insertBinary.groovy" ID="ID_1004069036"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -522,7 +525,7 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="true"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -551,7 +554,7 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -580,7 +583,7 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="true"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -615,7 +618,7 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -656,7 +659,7 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -687,7 +690,7 @@
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
 </node>
-<node TEXT="changes" POSITION="top_or_left" ID="ID_309963735"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="changes" POSITION="top_or_left" ID="ID_309963735"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -697,7 +700,8 @@
       Change log of this add-on: append one node for each noteworthy version and put the details for each version into a child node.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="v0.9" FOLDED="true" ID="ID_781192802">
 <node TEXT="Initial version" ID="ID_1996473369"/>
 </node>
@@ -832,7 +836,7 @@
 <node TEXT="now it creates and updates &apos;history.md&apos; file" ID="ID_1372738195"/>
 <node TEXT="adds changelogurl property to version.properties file" ID="ID_846931039"/>
 </node>
-<node TEXT="v0.10.1" ID="ID_1014535172">
+<node TEXT="v0.10.1" FOLDED="true" ID="ID_1014535172">
 <node TEXT="saved with Freeplane 1.11.1 (not compatible with previous versions)" ID="ID_1597818265"/>
 <node TEXT="Styles changed in addon .mm file" ID="ID_1068019535"/>
 <node TEXT="Added generateAddonsPropertiesMap command with its own template file" ID="ID_1413386255">
@@ -840,9 +844,18 @@
 </node>
 <node TEXT="List of changes in history.md now can handle multiple levels" ID="ID_796155408"/>
 </node>
-<node TEXT="v0.10.2" ID="ID_1210574311"/>
+<node TEXT="v2.2.3" ID="ID_1210574311">
+<node TEXT="Changed release version number to indicate that it is the newest version." ID="ID_81498938">
+<node TEXT="To avoid confussions" ID="ID_248460784"/>
+<node TEXT="gpapp had a different version number for the previous version, but it was the same.&#xa;I adopted his numbering to indicate this is the newest one." ID="ID_234284636"/>
 </node>
-<node TEXT="license" FOLDED="true" POSITION="top_or_left" ID="ID_770036552"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Changes to adapt this addon to changes in Freeplane" ID="ID_1740123085">
+<node TEXT="in Freeplane version v1.11.8_5" ID="ID_380203275"/>
+<node TEXT="changes in method: org.freeplane.features.map.MapWriter.writeMapAsXml()" ID="ID_1454470588"/>
+</node>
+</node>
+</node>
+<node TEXT="license" FOLDED="true" POSITION="top_or_left" ID="ID_770036552"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -858,24 +871,25 @@
       The License text has to be entered as a child of the <i>'license'</i>&#xa0;node, either as plain text or as HTML.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <attribute_layout VALUE_WIDTH="100 pt"/>
 <node TEXT="This add-on is free software: you can redistribute it and/or modify&#xa;it under the terms of the GNU General Public License as published by&#xa;the Free Software Foundation, either version 2 of the License, or&#xa;(at your option) any later version.&#xa;&#xa;This program is distributed in the hope that it will be useful,&#xa;but WITHOUT ANY WARRANTY; without even the implied warranty of&#xa;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the&#xa;GNU General Public License for more details." ID="ID_1912443753"/>
 </node>
-<node TEXT="preferences.xml" FOLDED="true" POSITION="top_or_left" ID="ID_95601904"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="preferences.xml" FOLDED="true" POSITION="top_or_left" ID="ID_95601904"><richcontent TYPE="NOTE">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#000000" face="SansSerif, sans-serif">The child node contains the add-on configuration as an extension to mindmapmodemenu.xml (in Tools-&gt;Preferences-&gt;Add-ons). </font>
+      <span style="color: #000000; font-family: SansSerif, sans-serif;">The child node contains the add-on configuration as an extension to mindmapmodemenu.xml (in Tools-&gt;Preferences-&gt;Add-ons). </span>
     </p>
     <p>
-      <font color="#000000" face="SansSerif, sans-serif">&#xa0;</font>
+      <span style="color: #000000; font-family: SansSerif, sans-serif;">&#xa0;</span>
     </p>
     <p>
-      <font color="#000000" face="SansSerif, sans-serif">Every property in the configuration should receive a default value in <i>default.properties</i>&#xa0;node. </font>
+      <span style="color: #000000; font-family: SansSerif, sans-serif;">Every property in the configuration should receive a default value in <i>default.properties</i>&#xa0;node. </span>
     </p>
     <p>
       
@@ -888,13 +902,13 @@
     </p>
     <ul>
       <li>
-        create the child node containing <font color="#000000" face="SansSerif, sans-serif">the add-on configuration as an extension to mindmapmodemenu.xml</font>
+        create the child node containing <span style="color: #000000; font-family: SansSerif, sans-serif;">the add-on configuration as an extension to mindmapmodemenu.xml</span>
       </li>
       <li>
-        add the properties to the <font color="#000000" face="SansSerif, sans-serif"><i>default.properties</i>&#xa0;node</font>
+        add the properties to the <i><span style="color: #000000; font-family: SansSerif, sans-serif;">default.properties</span></i><span style="color: #000000; font-family: SansSerif, sans-serif;">&#xa0;node</span>
       </li>
       <li>
-        add the properties to the <i>translations</i><font color="#000000" face="SansSerif, sans-serif">&#xa0;node</font>
+        add the properties to the <i>translations</i><span style="color: #000000; font-family: SansSerif, sans-serif;">&#xa0;node</span>
       </li>
     </ul>
     <p>
@@ -968,7 +982,8 @@
       </tr>
     </table>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="78.75 pt" VALUE_WIDTH="48 pt"/>
 <attribute NAME="addonsMenu" VALUE="string"/>
 <attribute NAME="updateUrl" VALUE="string"/>
@@ -977,13 +992,13 @@
 <node TEXT="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xa;&lt;preferences_structure&gt;&#xa;         &lt;tabbed_pane&gt;&#xa;                  &lt;tab name=&quot;plugins&quot;&gt;&#xa;                            &lt;separator name = &quot;${name}&quot;&gt;&#xa;                                    &lt;string name = &quot;${name}_addonsMenu&quot;/&gt;&#xa;                                    &lt;string name = &quot;${name}_updateUrl&quot;/&gt;&#xa;                                    &lt;string name = &quot;${name}_downloadUrl&quot;/&gt;&#xa;                                    &lt;string name = &quot;${name}_changelogUrl&quot;/&gt;&#xa;                           &lt;/separator&gt;&#xa;                  &lt;/tab&gt;&#xa;         &lt;/tabbed_pane&gt;&#xa;&lt;/preferences_structure&gt;" ID="ID_695932748" MAX_WIDTH="20 cm"/>
 </node>
 <node TEXT="default.properties" POSITION="top_or_left" ID="ID_1363888784">
-<attribute_layout NAME_WIDTH="118.5 pt" VALUE_WIDTH="158.25 pt"/>
+<attribute_layout NAME_WIDTH="123 pt" VALUE_WIDTH="162.75 pt"/>
 <attribute NAME="${name}.icon" VALUE="/images/${name}-icon.png"/>
 <attribute NAME="${name}_addonsMenu" VALUE="main_menu_scripting"/>
 <attribute NAME="${name}_updateUrl" VALUE="S{homepage}/version.properties"/>
 <attribute NAME="${name}_downloadUrl" VALUE="S{homepage}"/>
 <attribute NAME="${name}_changelogUrl" VALUE="S{homepage}/history.md"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1001,9 +1016,10 @@
       </li>
     </ul>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node TEXT="translations" FOLDED="true" POSITION="top_or_left" ID="ID_1289155258"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="translations" FOLDED="true" POSITION="top_or_left" ID="ID_1289155258"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1033,7 +1049,8 @@
       </li>
     </ul>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="de" ID="ID_956348813">
 <attribute_layout NAME_WIDTH="178.49999 pt" VALUE_WIDTH="185.99999 pt"/>
 <attribute NAME="addons.${name}.checkAddOn" VALUE="Komplettiere Add-on"/>
@@ -1105,7 +1122,7 @@
 <attribute NAME="addons.${name}.insertBinary" VALUE="Binary invoegen"/>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="top_or_left" ID="ID_26194671"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="deinstall" POSITION="top_or_left" ID="ID_26194671"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1115,7 +1132,8 @@
       List of files and/or directories to remove on uninstall
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="48 pt" VALUE_WIDTH="336.74999 pt"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}.script.xml"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/addOnDoc.groovy"/>
@@ -1135,7 +1153,7 @@
 <attribute NAME="delete" VALUE="${installationbase}/templates/devtools/Installed AddOns Properties template.mm"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/generateAddonsPropertiesMap.groovy"/>
 </node>
-<node TEXT="zips" POSITION="bottom_or_right" ID="ID_482322757"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="zips" POSITION="bottom_or_right" ID="ID_482322757"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1169,11 +1187,12 @@
       &#xa0;- The files will be processed in the sequence as seen in the map.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="scripts" ID="ID_929040161"/>
 <node TEXT="templates" ID="ID_1360990075"/>
 </node>
-<node TEXT="lib" POSITION="bottom_or_right" ID="ID_492204493"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="lib" POSITION="bottom_or_right" ID="ID_492204493"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1207,10 +1226,11 @@
       &#xa0;- The files will be processed in the sequence as seen in the map.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <attribute_layout VALUE_WIDTH="100 pt"/>
 </node>
-<node TEXT="images" POSITION="bottom_or_right" ID="ID_723709077"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="images" POSITION="bottom_or_right" ID="ID_723709077"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1240,7 +1260,8 @@
       Images can be added automatically by releaseAddOn.groovy or must be uploaded into the map via the script <i>Tools-&gt;Scripts-&gt;Insert Binary</i>&#xa0;since they have to be (base64) encoded as simple strings.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="${name}.png" ID="ID_1002402838"/>
 <node TEXT="${name}-icon.png" ID="ID_1000617651">
 <attribute_layout VALUE_WIDTH="100 pt"/>
@@ -1249,7 +1270,7 @@
 <attribute_layout VALUE_WIDTH="100 pt"/>
 </node>
 </node>
-<node TEXT="actions" POSITION="bottom_or_right" ID="ID_757744802"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="actions" POSITION="bottom_or_right" ID="ID_757744802"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1257,7 +1278,8 @@
   <body>
     Direct links to menu commands
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="Build add-on" ID="ID_1113925331" LINK="menuitem:_addons.devtools.checkAddOn_on_single_node"/>
 <node TEXT="Package add-on for publication" ID="ID_344644492" LINK="menuitem:_addons.devtools.releaseAddOn_on_single_node"/>
 <node TEXT="Export Translations" ID="ID_1121027378" LINK="menuitem:_addons.devtools.exportTranslations_on_single_node"/>

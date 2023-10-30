@@ -1,5 +1,15 @@
 # History
 
+## v2.2.3
+
+* Changed release version number to indicate that it is the newest version.
+  * To avoid confussions
+  * gpapp had a different version number for the previous version, but it was the same.
+I adopted his numbering to indicate this is the newest one.
+* Changes to adapt this addon to changes in Freeplane
+  * in Freeplane version v1.11.8_5
+  * changes in method: org.freeplane.features.map.MapWriter.writeMapAsXml()
+
 ## v0.10.1
 
 * saved with Freeplane 1.11.1 (not compatible with previous versions)
