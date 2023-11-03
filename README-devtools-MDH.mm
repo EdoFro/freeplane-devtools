@@ -3,7 +3,7 @@
 <attribute_registry SHOW_ATTRIBUTES="hide"/>
 <node LOCALIZED_TEXT="new_mindmap" FOLDED="false" ID="ID_696401721" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="0.8">
+<hook NAME="MapStyle">
     <conditional_styles>
         <conditional_style ACTIVE="true" STYLE_REF="containsNextTasks" LAST="true">
             <script_condition>
@@ -26,7 +26,7 @@
             </script_condition>
         </conditional_style>
     </conditional_styles>
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" mapUsesOwnSaveOptions="true" associatedTemplateLocation="template:/MarkdownHelper/MarkdownHelper%20template.mm" followedTemplateLocation="template:/MarkdownHelper/MarkdownHelper%20template.mm" show_icon_for_attributes="true" show_notes_in_map="false" save_modification_times="false" save_last_visited_node="default" show_note_icons="true" save_folding="default" followedMapLastTime="1683593176201" fit_to_viewport="false"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" mapUsesOwnSaveOptions="true" associatedTemplateLocation="template:/MarkdownHelper/MarkdownHelper%20template.mm" followedTemplateLocation="template:/MarkdownHelper/MarkdownHelper%20template.mm" show_icon_for_attributes="true" show_notes_in_map="false" save_modification_times="false" save_last_visited_node="default" show_note_icons="true" save_folding="default" followedMapLastTime="1684773329794" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" ID="ID_1758066171" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -107,10 +107,10 @@ blockquote {
 <stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.important" ID="ID_1753082284">
+<stylenode LOCALIZED_TEXT="styles.important" ID="ID_1013720515">
 <icon BUILTIN="yes"/>
 </stylenode>
-<stylenode TEXT="fullMarkDown" ID="ID_1483197001" BACKGROUND_COLOR="#e0eae0" FORMAT="markdownPatternFormat"><richcontent CONTENT-TYPE="plain/markdown" TYPE="DETAILS"/>
+<stylenode TEXT="fullMarkDown" ID="ID_1227608211" BACKGROUND_COLOR="#e0eae0" FORMAT="markdownPatternFormat"><richcontent CONTENT-TYPE="plain/markdown" TYPE="DETAILS"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/markdown"/>
 </stylenode>
 <stylenode TEXT="nextTask" BACKGROUND_COLOR="#ffff33">

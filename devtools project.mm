@@ -1,4 +1,4 @@
-<map version="freeplane 1.11.1">
+<map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <attribute_registry SHOW_ATTRIBUTES="selected"/>
 <node TEXT="devtools project" FOLDED="false" POSITION="bottom_or_right" ID="ID_620736694" LINK="../../OneDrive/Documentos/Mochila/Freeplane/ScriptsEnComputadorYDesarrollosEdo%20-%20mochila.mm"><hook NAME="MapStyle" background="#f9f9f8">
@@ -60,7 +60,7 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#bf5d3f" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_506805493" STARTINCLINATION="45 pt;0 pt;" ENDINCLINATION="57 pt;30 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="Dialog" SIZE="10" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="horizontal" COLOR="#2e3440" WIDTH="1" DASH="SOLID"/>
-<richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
+<richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details" ID="ID_861824498" COLOR="#006666" BACKGROUND_COLOR="#a5cece" BACKGROUND_ALPHA="204" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true">
@@ -234,7 +234,8 @@ blockquote {
 <icon BUILTIN="emoji-1F6A9"/>
 <font BOLD="true"/>
 </stylenode>
-<stylenode TEXT="fullMarkDown" ID="ID_897231475" FORMAT="markdownPatternFormat" BORDER_DASH="SOLID"><richcontent CONTENT-TYPE="plain/markdown" TYPE="DETAILS"/>
+<stylenode TEXT="fullMarkDown" ID="ID_897231475" FORMAT="markdownPatternFormat" BORDER_DASH="SOLID">
+<richcontent TYPE="DETAILS" CONTENT-TYPE="plain/markdown"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/markdown"/>
 </stylenode>
 <stylenode TEXT="notMovedRenamed" BACKGROUND_COLOR="#f28bb3" BORDER_WIDTH="3 px">
@@ -897,7 +898,7 @@ blockquote {
     </p>
   </body>
 </html></richcontent>
-<node TEXT="otras ubicaciones posibles" STYLE_REF="locked" ID="ID_1854871945"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="otras ubicaciones posibles" STYLE_REF="locked" ID="ID_1854871945"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -930,7 +931,7 @@ blockquote {
 <node TEXT="autores" FOLDED="true" ID="ID_1986036474">
 <node TEXT="volker Boercher" ID="ID_1667972803">
 <node TEXT="version &lt;= v.9.26" ID="ID_75820628">
-<node TEXT="changes" FOLDED="true" ID="ID_256299581"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="changes" FOLDED="true" ID="ID_256299581"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1047,7 +1048,7 @@ blockquote {
 <node TEXT="https://github.com/vboerchers" ID="ID_927925446" LINK="https://github.com/vboerchers"/>
 <node TEXT="https://sourceforge.net/u/boercher/profile/" ID="ID_984887841" LINK="https://sourceforge.net/u/boercher/profile/"/>
 </node>
-<node TEXT="Henk van den Akker" ID="ID_727241250"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="Henk van den Akker" ID="ID_727241250"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -1059,7 +1060,7 @@ blockquote {
   </body>
 </html></richcontent>
 <node TEXT="version = v.9.27" ID="ID_955897071">
-<node TEXT="changes" ID="ID_309963735"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="changes" ID="ID_309963735"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1083,7 +1084,7 @@ blockquote {
 <node TEXT="https://github.com/HaaiHenkie" ID="ID_107078908" LINK="https://github.com/HaaiHenkie"/>
 <node TEXT="https://sourceforge.net/u/haaihenkie/profile/" ID="ID_1423454553" LINK="https://sourceforge.net/u/haaihenkie/profile/"/>
 </node>
-<node TEXT="Gergely Papp" ID="ID_1034713446"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="Gergely Papp" ID="ID_1034713446"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -1101,7 +1102,7 @@ blockquote {
 <node TEXT="Devtools with property file support" ID="ID_1120367889" BACKGROUND_COLOR="#ffff75">
 <font SIZE="16"/>
 </node>
-<node TEXT="basado en version" ID="ID_300336365"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="basado en version" ID="ID_300336365"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -1165,7 +1166,7 @@ blockquote {
 <attribute NAME="fileSize" VALUE="2.460" OBJECT="org.freeplane.features.format.FormattedNumber|2460|#,##0"/>
 </node>
 </node>
-<node TEXT="scripts" FOLDED="true" ID="ID_536554977" LINK="src/resources/scripts/">
+<node TEXT="scripts" ID="ID_536554977" LINK="src/resources/scripts/">
 <attribute NAME="lastModifiedTime" VALUE="07-03-22 18:59" OBJECT="org.freeplane.features.format.FormattedDate|2022-03-07T18:59-0300|dd-MM-yy HH:mm"/>
 <attribute NAME="lastAccessTime" VALUE="07-03-22 19:52" OBJECT="org.freeplane.features.format.FormattedDate|2022-03-07T19:52-0300|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="16-01-22 14:49" OBJECT="org.freeplane.features.format.FormattedDate|2022-01-16T14:49-0300|datetime"/>
@@ -1218,7 +1219,7 @@ blockquote {
 <attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="1.275" OBJECT="org.freeplane.features.format.FormattedNumber|1275|#,##0"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1359,7 +1360,7 @@ blockquote {
   </body>
 </html></richcontent>
 </node>
-<node TEXT="importTranslations.groovy" ID="ID_1263128607" LINK="src/resources/scripts/importTranslations.groovy"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="importTranslations.groovy" ID="ID_1263128607" LINK="src/resources/scripts/importTranslations.groovy"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -1374,7 +1375,7 @@ blockquote {
 <attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="1.624" OBJECT="org.freeplane.features.format.FormattedNumber|1624|#,##0"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1539,7 +1540,7 @@ blockquote {
   </body>
 </html></richcontent>
 </node>
-<node TEXT="inspectInstalledAddOn.groovy" ID="ID_101523590" LINK="src/resources/scripts/inspectInstalledAddOn.groovy"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="inspectInstalledAddOn.groovy" ID="ID_101523590" LINK="src/resources/scripts/inspectInstalledAddOn.groovy"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -1555,7 +1556,7 @@ blockquote {
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="1.848" OBJECT="org.freeplane.features.format.FormattedNumber|1848|#,##0"/>
 </node>
-<node TEXT="generateAddonsPropertiesMap.groovy" ID="ID_1618064178" LINK="src/resources/scripts/generateAddonsPropertiesMap.groovy"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="generateAddonsPropertiesMap.groovy" ID="ID_1618064178" LINK="src/resources/scripts/generateAddonsPropertiesMap.groovy"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -1600,7 +1601,7 @@ blockquote {
 </node>
 <node TEXT="crear mapa nuevo desde template" ID="ID_1692695623">
 <icon BUILTIN="pencil"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1638,7 +1639,7 @@ blockquote {
     </p>
   </body>
 </html></richcontent>
-<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -1658,7 +1659,7 @@ blockquote {
 <attribute NAME="creationTime" VALUE="20-01-22 18:27" OBJECT="org.freeplane.features.format.FormattedDate|2022-01-20T18:27-0300|datetime"/>
 <attribute NAME="fileSize" VALUE="0" OBJECT="org.freeplane.features.format.FormattedNumber|0|#,##0"/>
 <node TEXT="pruebas" ID="ID_519158794">
-<node TEXT="leer archivo auto.properties" ID="ID_437206241"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="leer archivo auto.properties" ID="ID_437206241"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1702,7 +1703,7 @@ blockquote {
     </p>
   </body>
 </html></richcontent>
-<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -1714,7 +1715,7 @@ blockquote {
   </body>
 </html></richcontent>
 </node>
-<node TEXT="leer archivo .properties de directorio actual" ID="ID_475653669"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="leer archivo .properties de directorio actual" ID="ID_475653669"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1779,7 +1780,7 @@ blockquote {
     </p>
   </body>
 </html></richcontent>
-<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -1792,7 +1793,7 @@ blockquote {
 </html></richcontent>
 </node>
 </node>
-<node TEXT="de.properties" ID="ID_1698065446" LINK="src/resources/translations/de.properties"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="de.properties" ID="ID_1698065446" LINK="src/resources/translations/de.properties"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1841,7 +1842,7 @@ blockquote {
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="597" OBJECT="org.freeplane.features.format.FormattedNumber|597|#,##0"/>
 </node>
-<node TEXT="en.properties" ID="ID_926939578" LINK="src/resources/translations/en.properties"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="en.properties" ID="ID_926939578" LINK="src/resources/translations/en.properties"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1890,7 +1891,7 @@ blockquote {
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="1.699" OBJECT="org.freeplane.features.format.FormattedNumber|1699|#,##0"/>
 </node>
-<node TEXT="es.properties" ID="ID_611913795" LINK="src/resources/translations/es.properties"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="es.properties" ID="ID_611913795" LINK="src/resources/translations/es.properties"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1939,7 +1940,7 @@ blockquote {
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="1.738" OBJECT="org.freeplane.features.format.FormattedNumber|1738|#,##0"/>
 </node>
-<node TEXT="nl.properties" ID="ID_960185631" LINK="src/resources/translations/nl.properties"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="nl.properties" ID="ID_960185631" LINK="src/resources/translations/nl.properties"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1982,7 +1983,7 @@ blockquote {
 <attribute NAME="lastAccessTime" VALUE="08-05-23 19:40" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T19:40-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="62" OBJECT="org.freeplane.features.format.FormattedNumber|62|#,##0"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -2007,53 +2008,59 @@ blockquote {
 <attribute NAME="fileSize" VALUE="59.876" OBJECT="org.freeplane.features.format.FormattedNumber|59876|#,##0"/>
 </node>
 <node TEXT="generados automaticamente" ID="ID_1706105806">
+<node TEXT="devtools-v2.2.3.addon.mm" ID="ID_461531441" LINK="src/resources/devtools-v2.2.3.addon.mm">
+<attribute NAME="lastModifiedTime" VALUE="30-10-23 15:10" OBJECT="org.freeplane.features.format.FormattedDate|2023-10-30T15:10-0300|datetime"/>
+<attribute NAME="lastAccessTime" VALUE="30-10-23 15:11" OBJECT="org.freeplane.features.format.FormattedDate|2023-10-30T15:11-0300|datetime"/>
+<attribute NAME="creationTime" VALUE="30-10-23 15:10" OBJECT="org.freeplane.features.format.FormattedDate|2023-10-30T15:10-0300|datetime"/>
+<attribute NAME="fileSize" VALUE="182.958" OBJECT="org.freeplane.features.format.FormattedNumber|182958|#,##0"/>
+</node>
 <node TEXT="devtools-v0.10.1.addon.mm" ID="ID_449305586" LINK="src/resources/devtools-v0.10.1.addon.mm">
-<attribute NAME="lastModifiedTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|datetime"/>
-<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastModifiedTime" VALUE="22-05-23 14:31" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-22T14:31-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="30-10-23 13:57" OBJECT="org.freeplane.features.format.FormattedDate|2023-10-30T13:57-0300|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 14:30" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T14:30-0400|datetime"/>
-<attribute NAME="fileSize" VALUE="182.124" OBJECT="org.freeplane.features.format.FormattedNumber|182124|#,##0"/>
+<attribute NAME="fileSize" VALUE="182.131" OBJECT="org.freeplane.features.format.FormattedNumber|182131|#,##0"/>
 </node>
 <node TEXT="devtools-v0.9.31.addon.mm" ID="ID_1573377036" LINK="src/resources/devtools-v0.9.31.addon.mm">
 <attribute NAME="lastModifiedTime" VALUE="07-03-22 19:27" OBJECT="org.freeplane.features.format.FormattedDate|2022-03-07T19:27-0300|datetime"/>
-<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="30-10-23 13:57" OBJECT="org.freeplane.features.format.FormattedDate|2023-10-30T13:57-0300|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="172.175" OBJECT="org.freeplane.features.format.FormattedNumber|172175|#,##0"/>
 </node>
 <node TEXT="devtools-v0.9.30.addon.mm" ID="ID_1213226158" LINK="src/resources/devtools-v0.9.30.addon.mm">
 <attribute NAME="lastModifiedTime" VALUE="17-02-22 21:09" OBJECT="org.freeplane.features.format.FormattedDate|2022-02-17T21:09-0300|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="30-10-23 13:57" OBJECT="org.freeplane.features.format.FormattedDate|2023-10-30T13:57-0300|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="158.709" OBJECT="org.freeplane.features.format.FormattedNumber|158709|#,##0"/>
 </node>
 <node TEXT="devtools-v0.9.29.addon.mm" ID="ID_1785738401" LINK="src/resources/devtools-v0.9.29.addon.mm">
 <attribute NAME="lastModifiedTime" VALUE="21-01-22 10:16" OBJECT="org.freeplane.features.format.FormattedDate|2022-01-21T10:16-0300|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="30-10-23 13:57" OBJECT="org.freeplane.features.format.FormattedDate|2023-10-30T13:57-0300|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="146.246" OBJECT="org.freeplane.features.format.FormattedNumber|146246|#,##0"/>
 </node>
 <node TEXT="devtools-v0.9.28.addon.mm" ID="ID_1680589578" LINK="src/resources/devtools-v0.9.28.addon.mm">
 <attribute NAME="lastModifiedTime" VALUE="19-01-22 18:20" OBJECT="org.freeplane.features.format.FormattedDate|2022-01-19T18:20-0300|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="30-10-23 13:57" OBJECT="org.freeplane.features.format.FormattedDate|2023-10-30T13:57-0300|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="138.338" OBJECT="org.freeplane.features.format.FormattedNumber|138338|#,##0"/>
 </node>
 <node TEXT="history.md" ID="ID_1016279074" LINK="src/resources/history.md">
-<attribute NAME="lastModifiedTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="creationTime" VALUE="07-05-23 19:53" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:53-0400|dd-MM-yy HH:mm"/>
-<attribute NAME="fileSize" VALUE="3.830" OBJECT="org.freeplane.features.format.FormattedNumber|3830|#,##0"/>
+<attribute NAME="lastModifiedTime" VALUE="30-10-23 15:10" OBJECT="org.freeplane.features.format.FormattedDate|2023-10-30T15:10-0300|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="30-10-23 15:10" OBJECT="org.freeplane.features.format.FormattedDate|2023-10-30T15:10-0300|dd-MM-yy HH:mm"/>
+<attribute NAME="creationTime" VALUE="22-05-23 14:30" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-22T14:30-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="fileSize" VALUE="4.256" OBJECT="org.freeplane.features.format.FormattedNumber|4256|#,##0"/>
 </node>
 <node TEXT="devtools.mm.bak" POSITION="bottom_or_right" ID="ID_1809490864" LINK="src/resources/devtools.mm.bak">
-<attribute NAME="lastModifiedTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|datetime"/>
-<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastModifiedTime" VALUE="30-10-23 15:10" OBJECT="org.freeplane.features.format.FormattedDate|2023-10-30T15:10-0300|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="30-10-23 15:10" OBJECT="org.freeplane.features.format.FormattedDate|2023-10-30T15:10-0300|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 12:20" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T12:20-0400|datetime"/>
-<attribute NAME="fileSize" VALUE="59.876" OBJECT="org.freeplane.features.format.FormattedNumber|59876|#,##0"/>
+<attribute NAME="fileSize" VALUE="60.243" OBJECT="org.freeplane.features.format.FormattedNumber|60243|#,##0"/>
 </node>
 <node TEXT="version.properties" POSITION="bottom_or_right" ID="ID_1082252013" LINK="src/resources/version.properties">
-<attribute NAME="lastModifiedTime" VALUE="07-05-23 19:58" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-07T19:58-0400|datetime"/>
-<attribute NAME="lastAccessTime" VALUE="08-05-23 18:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T18:46-0400|dd-MM-yy HH:mm"/>
+<attribute NAME="lastModifiedTime" VALUE="30-10-23 15:10" OBJECT="org.freeplane.features.format.FormattedDate|2023-10-30T15:10-0300|dd-MM-yy HH:mm"/>
+<attribute NAME="lastAccessTime" VALUE="30-10-23 15:10" OBJECT="org.freeplane.features.format.FormattedDate|2023-10-30T15:10-0300|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 14:30" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T14:30-0400|datetime"/>
-<attribute NAME="fileSize" VALUE="246" OBJECT="org.freeplane.features.format.FormattedNumber|246|#,##0"/>
+<attribute NAME="fileSize" VALUE="245" OBJECT="org.freeplane.features.format.FormattedNumber|245|#,##0"/>
 </node>
 </node>
 </node>
@@ -2114,7 +2121,7 @@ blockquote {
 <attribute NAME="lastAccessTime" VALUE="08-05-23 19:40" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T19:40-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="creationTime" VALUE="06-05-23 11:46" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-06T11:46-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="fileSize" VALUE="85" OBJECT="org.freeplane.features.format.FormattedNumber|85|#,##0"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -2146,7 +2153,7 @@ blockquote {
     </p>
   </body>
 </html></richcontent>
-<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -2158,6 +2165,7 @@ blockquote {
   </body>
 </html></richcontent>
 </node>
+<node TEXT="freeplane-devtools.iml" ID="ID_1424655308" LINK="freeplane-devtools.iml"/>
 <node TEXT="devtools project.mm" ID="ID_1543027272" LINK="devtools%20project.mm">
 <attribute NAME="lastModifiedTime" VALUE="08-05-23 19:25" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T19:25-0400|dd-MM-yy HH:mm"/>
 <attribute NAME="lastAccessTime" VALUE="08-05-23 19:40" OBJECT="org.freeplane.features.format.FormattedDate|2023-05-08T19:40-0400|dd-MM-yy HH:mm"/>
@@ -2168,14 +2176,14 @@ blockquote {
 </node>
 <node TEXT="new imported files" STYLE_REF="newFolderImport" ID="ID_1623143195">
 <attribute NAME="log_MDI" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2|#0.####"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<richcontent TYPE="NOTE">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      Inated:&#xa0;&#xa0;&#xa0;2023-05-20&#xa0;&#xa0;17:59:22
+      Inated:&#xa0;&#xa0;&#xa0;2023-10-30&#xa0;&#xa0;15:10:42
     </p>
     <p>
       
@@ -2190,7 +2198,7 @@ blockquote {
       &#xa0;0 link(s) corrected in nodes
     </p>
     <p>
-      &#xa0;0 new file(s) imported as node(s)&#xa0;
+      &#xa0;1 new file(s) imported as node(s)&#xa0;
     </p>
     <p>
       &#xa0;0 node(s) moved/renamed in drive
@@ -2234,6 +2242,9 @@ blockquote {
   </body>
 </html>
 </richcontent>
+<node TEXT="src" ID="ID_826523139" LINK="src/">
+<node TEXT="resources" ID="ID_614375391" LINK="#ID_1214004942"/>
+</node>
 </node>
 <node TEXT="Tareas" FOLDED="true" ID="ID_1002864256">
 <node TEXT="v0.9.29" STYLE_REF="completedTask" FOLDED="true" ID="ID_1569697453">
@@ -2300,7 +2311,7 @@ blockquote {
 <attribute NAME="birthMonth" VALUE="number,1,12"/>
 <attribute NAME="wrong" VALUE="bad"/>
 <attribute NAME="wrongNumber" VALUE="number,3"/>
-<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -2331,7 +2342,7 @@ blockquote {
 </node>
 <node TEXT="v0.9.32" ID="ID_354148256">
 <node TEXT="rutina para actualizar mapa add on de v0.9.27 a v0.9.31" ID="ID_1028530801">
-<node TEXT="actualizar attributos" ID="ID_454906642"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="actualizar attributos" ID="ID_454906642"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -2414,7 +2425,7 @@ blockquote {
     </p>
   </body>
 </html></richcontent>
-<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -2429,7 +2440,7 @@ blockquote {
 <node TEXT="//    translations" ID="ID_115400566"/>
 <node TEXT="//    default.properties" ID="ID_1854891807"/>
 </node>
-<node TEXT="rutina para agregar attributos a nodo preferences.xml" ID="ID_734282246"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="rutina para agregar attributos a nodo preferences.xml" ID="ID_734282246"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -2470,7 +2481,7 @@ blockquote {
     </p>
   </body>
 </html></richcontent>
-<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<richcontent TYPE="DETAILS">
 <html>
   <head>
     
@@ -2490,7 +2501,7 @@ blockquote {
 </node>
 <node TEXT="revisar que no hayan bugs tipo NPE en lo que cambié" STYLE_REF="pendingTask" ID="ID_1504309448"/>
 <node ID="ID_1238860347" CONTENT_ID="ID_1252728481"/>
-<node TEXT="generar carpetas automáticamente" STYLE_REF="discardedTask" ID="ID_1777687240"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="generar carpetas automáticamente" STYLE_REF="discardedTask" ID="ID_1777687240"><richcontent TYPE="DETAILS">
 <html>
   <head>
     
